@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "backend": "boltz",
+  "benchmark": "/workspace/transfer/benchmark",
+  "cache": "/workspace/cache",
+  "model": "/workspace/results/phase-2-profiling/predictor.pkl",
+  "gpu_counts": [
+    1,
+    2,
+    4
+  ],
+  "gpu_ids": [
+    "GPU-b2325c48-af29-7fe9-d81a-9aaf1a508153",
+    "GPU-848fca0d-613c-df26-3492-b58f60c08d7a",
+    "GPU-2d69b044-2e42-ae43-e8c0-43e03cb2fbf2",
+    "GPU-8c98c1cc-cc5b-dd2c-3908-ba73167aa48d"
+  ],
+  "variants": [
+    "fcfs",
+    "token_sjf",
+    "predicted_sjf",
+    "fair_service",
+    "uaf_sjf",
+    "uaf_no_service"
+  ],
+  "traces": [
+    "saturated",
+    "burst"
+  ],
+  "burst_gap_seconds": 60,
+  "repetitions": 3,
+  "seed": 42,
+  "timeout_seconds": 3600
+}

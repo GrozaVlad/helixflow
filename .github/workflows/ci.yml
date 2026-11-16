@@ -1,0 +1,38 @@
+name: CI
+on: [push, pull_request]
+permissions: {contents: read}
+jobs:
+  artifact-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python artifacts/verify_artifacts.py
+  scheduler-test:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+    defaults: {run: {working-directory: multi_gpu_scheduler}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -e '.[dev,experiment]'
+      - run: ruff check scheduling experiments tests
+      - run: pytest -q
+  test:
+    runs-on: ubuntu-latest
+    defaults: {run: {working-directory: aws_distributed}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -e '.[dev]'
+      - run: ruff check shared services workers tests
+      - run: pytest --cov=shared --cov=services
+      - uses: hashicorp/setup-terraform@v3
+      - run: terraform -chdir=terraform fmt -check
+      - run: terraform -chdir=terraform init -backend=false
+      - run: terraform -chdir=terraform validate

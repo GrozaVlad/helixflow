@@ -1,0 +1,13 @@
+*
+!LICENSE
+!local_install/
+!local_install/requirements.txt
+!multi_gpu_scheduler/
+!multi_gpu_scheduler/**
+multi_gpu_scheduler/.venv/
+multi_gpu_scheduler/.pytest_cache/
+multi_gpu_scheduler/.ruff_cache/
+multi_gpu_scheduler/*.egg-info/
+multi_gpu_scheduler/results/*
+multi_gpu_scheduler/workloads/*
+multi_gpu_scheduler/**/__pycache__/

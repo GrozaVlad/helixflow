@@ -1,0 +1,45 @@
+% Vector figure compiled directly by LaTeX; no external renderer required.
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  component/.style={draw=blue!55!black,fill=blue!4,rounded corners=2pt,
+    align=center,text width=4.15cm,minimum height=1.35cm,inner sep=6pt,
+    font=\fontsize{9}{11}\selectfont},
+  incomplete/.style={component,dashed,draw=orange!70!black,fill=orange!5},
+  flow/.style={-{Latex[length=2mm]},thick,draw=black!65}
+]
+\node[component] (local) at (-5.05,0)
+  {\textbf{Local workbench}\\FastAPI and browser\\YAML / FASTA uploads};
+\node[component] (toolkit) at (0,0)
+  {\textbf{Profiling toolkit}\\Single-job GPU profiles\\Features and traces};
+\node[component] (cloud) at (5.05,0)
+  {\textbf{AWS reference backend}\\API, SQS, Step Functions\\Terraform; worker images};
+
+\node[component] (gpu) at (-5.05,-2.0)
+  {\textbf{One local GPU}\\Serialized Boltz subprocess\\Logs and prediction artifacts};
+\node[component] (analysis) at (0,-2.0)
+  {\textbf{Policy analysis}\\Quantile predictors\\Policies and simulation};
+\node[component] (batch) at (5.05,-2.0)
+  {\textbf{Cloud execution}\\Batch CPU / GPU queues\\Spot and On-Demand paths};
+
+\node[component] (viewer) at (-5.05,-4.2)
+  {\textbf{Result inspection}\\Job-specific downloads\\Embedded Mol* viewer};
+\node[component] (live) at (0,-4.2)
+  {\textbf{Live GPU dispatcher}\\SQLite queue and attempts\\GPU leases and recovery};
+\node[incomplete] (integration) at (5.05,-4.2)
+  {\textbf{Cloud integration gaps}\\MSA binding; state; retries\\Validation still required};
+
+\node[draw=black!50,fill=black!3,rounded corners=2pt,align=center,
+  text width=14.3cm,minimum height=1.0cm,font=\fontsize{9}{11}\selectfont] (assets) at (0,-6.05)
+  {\textbf{Scientific assets and execution records}\\
+   Host files, logs, JSON and CSV for local tools \qquad S3 and DynamoDB for AWS};
+\draw[flow] (local) -- (gpu);
+\draw[flow] (gpu) -- (viewer);
+\draw[flow] (toolkit) -- (analysis);
+\draw[flow] (analysis) -- (live);
+\draw[flow] (cloud) -- (batch);
+\draw[flow,dashed] (batch) -- (integration);
+\draw[flow] (viewer.south) -- (assets.north -| viewer.south);
+\draw[flow] (live.south) -- (assets.north);
+\draw[flow,dashed] (integration.south) -- (assets.north -| integration.south);
+\end{tikzpicture}%
+}

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="32.6.10">
+  <diagram id="general_architecture" name="General Architecture">
+    <mxGraphModel grid="1" gridSize="10" guides="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1020" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="(a) Define the scientific task" vertex="1" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=21;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#F8FAFC;spacing=8;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=18;fontStyle=1;">
+          <mxGeometry as="geometry" x="20" y="20" width="960" height="170" />
+        </mxCell>
+        <mxCell id="3" value="Protein / ligand inputs&#10;YAML or supported FASTA" vertex="1" parent="2" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="20" y="65" width="290" height="80" />
+        </mxCell>
+        <mxCell id="4" value="Compatible MSAs + model assets&#10;Inference settings and seed" vertex="1" parent="2" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="335" y="65" width="290" height="80" />
+        </mxCell>
+        <mxCell id="5" value="Submission context&#10;Individual prediction or campaign&#10;Owner identity for CLI campaigns" vertex="1" parent="2" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="650" y="65" width="290" height="80" />
+        </mxCell>
+        <mxCell id="6" value="(b) Choose an execution environment" vertex="1" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=21;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#F8FAFC;spacing=8;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=18;fontStyle=1;">
+          <mxGeometry as="geometry" x="20" y="260" width="960" height="430" />
+        </mxCell>
+        <mxCell id="7" value="Alternative interfaces and storage backends, not a single integrated control plane." vertex="1" parent="6" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;">
+          <mxGeometry as="geometry" x="20" y="48" width="920" height="28" />
+        </mxCell>
+        <mxCell id="8" value="Interactive workbench" vertex="1" parent="6" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;fontColor=#263445;strokeColor=#0072B2;fillColor=#F0F7FC;spacing=8;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=18;fontStyle=1;">
+          <mxGeometry as="geometry" x="20" y="90" width="290" height="320" />
+        </mxCell>
+        <mxCell id="9" value="One local GPU" vertex="1" parent="8" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;fontColor=#0072B2;">
+          <mxGeometry as="geometry" x="14" y="47" width="262" height="28" />
+        </mxCell>
+        <mxCell id="10" value="Browser + FastAPI&#10;Upload, status, logs" vertex="1" parent="8" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#0072B2;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="14" y="90" width="262" height="62" />
+        </mxCell>
+        <mxCell id="11" value="GPU lock + Boltz process&#10;One prediction at a time" vertex="1" parent="8" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#0072B2;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="14" y="175" width="262" height="62" />
+        </mxCell>
+        <mxCell id="12" value="" edge="1" source="10" target="11" parent="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#0072B2;strokeWidth=2;fontFamily=Helvetica;fontSize=15;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="13" value="Persistent host files + model cache" vertex="1" parent="8" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;fontColor=#0072B2;align=center;">
+          <mxGeometry as="geometry" x="14" y="268" width="262" height="38" />
+        </mxCell>
+        <mxCell id="14" value="Portable campaign runner" vertex="1" parent="6" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;fontColor=#263445;strokeColor=#007F73;fillColor=#EFF8F5;spacing=8;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=18;fontStyle=1;">
+          <mxGeometry as="geometry" x="335" y="90" width="290" height="320" />
+        </mxCell>
+        <mxCell id="15" value="Evaluated on 1, 2 and 4 GPUs" vertex="1" parent="14" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;fontColor=#007F73;">
+          <mxGeometry as="geometry" x="14" y="47" width="262" height="28" />
+        </mxCell>
+        <mxCell id="16" value="CLI + durable SQLite queue&#10;Inputs, jobs and attempts" vertex="1" parent="14" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#007F73;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="14" y="90" width="262" height="62" />
+        </mxCell>
+        <mxCell id="17" value="Runtime / memory estimates&#10;Policy selection + GPU leases" vertex="1" parent="14" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#007F73;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="14" y="175" width="262" height="62" />
+        </mxCell>
+        <mxCell id="18" value="" edge="1" source="16" target="17" parent="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#007F73;strokeWidth=2;fontFamily=Helvetica;fontSize=15;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="19" value="" vertex="1" parent="14" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#007F73;fillColor=#FFFFFF;spacing=8;group;strokeColor=none;fillColor=none;">
+          <mxGeometry as="geometry" x="14" y="268" width="262" height="34" />
+        </mxCell>
+        <mxCell id="20" value="GPU 0" vertex="1" parent="19" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#263445;strokeColor=#007F73;fillColor=#FFFFFF;spacing=8;rounded=0;spacing=0;">
+          <mxGeometry as="geometry" x="0" y="0" width="61" height="34" />
+        </mxCell>
+        <mxCell id="21" value="GPU 1" vertex="1" parent="19" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#263445;strokeColor=#007F73;fillColor=#FFFFFF;spacing=8;rounded=0;spacing=0;">
+          <mxGeometry as="geometry" x="67" y="0" width="61" height="34" />
+        </mxCell>
+        <mxCell id="22" value="GPU 2" vertex="1" parent="19" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#263445;strokeColor=#007F73;fillColor=#FFFFFF;spacing=8;rounded=0;spacing=0;">
+          <mxGeometry as="geometry" x="134" y="0" width="61" height="34" />
+        </mxCell>
+        <mxCell id="23" value="GPU 3" vertex="1" parent="19" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#263445;strokeColor=#007F73;fillColor=#FFFFFF;spacing=8;rounded=0;spacing=0;">
+          <mxGeometry as="geometry" x="201" y="0" width="61" height="34" />
+        </mxCell>
+        <mxCell id="24" value="" edge="1" source="17" target="19" parent="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#007F73;strokeWidth=2;fontFamily=Helvetica;fontSize=15;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="25" value="AWS reference backend" vertex="1" parent="6" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;fontColor=#263445;strokeColor=#A85A00;fillColor=#FCF6EE;spacing=8;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=18;fontStyle=1;dashed=1;">
+          <mxGeometry as="geometry" x="650" y="90" width="290" height="320" />
+        </mxCell>
+        <mxCell id="26" value="Experimental; not cloud-validated" vertex="1" parent="25" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;fontColor=#A85A00;">
+          <mxGeometry as="geometry" x="14" y="47" width="262" height="28" />
+        </mxCell>
+        <mxCell id="27" value="API / SQS / Step Functions&#10;DynamoDB job metadata" vertex="1" parent="25" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#A85A00;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="14" y="90" width="262" height="62" />
+        </mxCell>
+        <mxCell id="28" value="Batch CPU and GPU containers&#10;EC2 Spot / On-Demand" vertex="1" parent="25" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#A85A00;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="14" y="175" width="262" height="62" />
+        </mxCell>
+        <mxCell id="29" value="" edge="1" source="27" target="28" parent="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#A85A00;strokeWidth=2;fontFamily=Helvetica;fontSize=15;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="30" value="S3 assets; ECR images" vertex="1" parent="25" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;fontColor=#A85A00;align=center;">
+          <mxGeometry as="geometry" x="14" y="268" width="262" height="38" />
+        </mxCell>
+        <mxCell id="31" value="(c) Retain evidence and inspect results" vertex="1" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=21;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#F8FAFC;spacing=8;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;align=left;spacingTop=15;spacingLeft=18;fontStyle=1;">
+          <mxGeometry as="geometry" x="20" y="760" width="960" height="195" />
+        </mxCell>
+        <mxCell id="32" value="Structures + confidence outputs&#10;Job-specific Mol* inspection&#10;Researcher interpretation" vertex="1" parent="31" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="20" y="60" width="290" height="85" />
+        </mxCell>
+        <mxCell id="33" value="Inputs, settings, logs and hashes&#10;Attempt receipts + inventories&#10;Traceable campaign records" vertex="1" parent="31" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="335" y="60" width="290" height="85" />
+        </mxCell>
+        <mxCell id="34" value="Profiles, timings and owner metrics&#10;Policy comparisons and reports&#10;Operational analysis" vertex="1" parent="31" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;">
+          <mxGeometry as="geometry" x="650" y="60" width="290" height="85" />
+        </mxCell>
+        <mxCell id="35" value="Output categories depend on the selected workflow; columns do not denote one-to-one mappings." vertex="1" parent="31" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;">
+          <mxGeometry as="geometry" x="20" y="155" width="920" height="26" />
+        </mxCell>
+        <mxCell id="36" value="Select a supported workflow" edge="1" source="2" target="6" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#485B6A;strokeWidth=2;fontFamily=Helvetica;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="130" y="0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="Retain workflow-specific outputs" edge="1" source="6" target="31" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#485B6A;strokeWidth=2;fontFamily=Helvetica;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="145" y="0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="No unified browser-to-multi-GPU control plane or shared cross-backend database is implied." vertex="1" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#263445;strokeColor=#9AA9B7;fillColor=#FFFFFF;spacing=8;text;strokeColor=none;fillColor=none;align=left;spacing=0;">
+          <mxGeometry as="geometry" x="20" y="975" width="960" height="28" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

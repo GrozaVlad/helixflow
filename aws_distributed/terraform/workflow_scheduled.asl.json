@@ -1,0 +1,90 @@
+{
+  "Comment": "Two-stage Boltz workflow with learned GPU priority, fair share, and Spot fallback",
+  "StartAt": "Prepare MSA",
+  "States": {
+    "Prepare MSA": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::batch:submitJob.sync",
+      "Parameters": {
+        "JobName.$": "States.Format('msa-{}', $.job_id)",
+        "JobQueue": "${cpu_queue}",
+        "JobDefinition": "${msa_definition}",
+        "ContainerOverrides": {
+          "Environment": [{"Name": "MANIFEST_KEY", "Value.$": "$.manifest_key"}]
+        },
+        "Tags": {"ResearchJobId.$": "$.job_id"}
+      },
+      "ResultPath": "$.msa",
+      "Next": "Rank GPU Job"
+    },
+    "Rank GPU Job": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${scheduler}",
+        "Payload": {
+          "job_id.$": "$.job_id",
+          "owner_id.$": "$.owner_id",
+          "prepared_manifest_key.$": "States.Format('jobs/{}/{}/prepared/manifest.json', $.owner_id, $.job_id)"
+        }
+      },
+      "ResultPath": "$.schedule",
+      "Next": "Predict on Spot"
+    },
+    "Predict on Spot": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::batch:submitJob.sync",
+      "Parameters": {
+        "JobName.$": "States.Format('boltz-spot-{}', $.job_id)",
+        "JobQueue": "${gpu_spot_queue}",
+        "JobDefinition": "${boltz_definition}",
+        "ShareIdentifier.$": "$.schedule.Payload.share_identifier",
+        "SchedulingPriorityOverride.$": "$.schedule.Payload.scheduling_priority",
+        "ContainerOverrides": {
+          "Environment": [
+            {"Name": "MANIFEST_KEY", "Value.$": "$.manifest_key"},
+            {"Name": "PREPARED_MANIFEST_KEY", "Value.$": "States.Format('jobs/{}/{}/prepared/manifest.json', $.owner_id, $.job_id)"},
+            {"Name": "ATTEMPT", "Value": "1"}
+          ]
+        },
+        "Tags": {"ResearchJobId.$": "$.job_id"}
+      },
+      "ResultPath": "$.prediction",
+      "Catch": [{"ErrorEquals": ["States.ALL"], "ResultPath": "$.spot_error", "Next": "Predict on On-Demand"}],
+      "Next": "Finalize"
+    },
+    "Predict on On-Demand": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::batch:submitJob.sync",
+      "Parameters": {
+        "JobName.$": "States.Format('boltz-od-{}', $.job_id)",
+        "JobQueue": "${gpu_od_queue}",
+        "JobDefinition": "${boltz_definition}",
+        "ShareIdentifier.$": "$.schedule.Payload.share_identifier",
+        "SchedulingPriorityOverride.$": "$.schedule.Payload.scheduling_priority",
+        "ContainerOverrides": {
+          "Environment": [
+            {"Name": "MANIFEST_KEY", "Value.$": "$.manifest_key"},
+            {"Name": "PREPARED_MANIFEST_KEY", "Value.$": "States.Format('jobs/{}/{}/prepared/manifest.json', $.owner_id, $.job_id)"},
+            {"Name": "ATTEMPT", "Value": "2"}
+          ]
+        },
+        "Tags": {"ResearchJobId.$": "$.job_id"}
+      },
+      "ResultPath": "$.prediction",
+      "Next": "Finalize fallback"
+    },
+    "Finalize fallback": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {"FunctionName": "${finalizer}", "Payload": {"job_id.$": "$.job_id", "owner_id.$": "$.owner_id", "attempt": 2}},
+      "End": true
+    },
+    "Finalize": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {"FunctionName": "${finalizer}", "Payload": {"job_id.$": "$.job_id", "owner_id.$": "$.owner_id", "attempt": 1}},
+      "End": true
+    }
+  }
+}

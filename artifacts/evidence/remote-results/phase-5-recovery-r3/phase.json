@@ -1,0 +1,67 @@
+{
+  "status": "COMPLETED",
+  "started_at": 1793346170.342583,
+  "stage": "ready_for_backup",
+  "runner_sha256": "e58623272da66dff37e2628f0b198bd2d890470c892fbd37248dda9c3b9c6e4a",
+  "cases": [
+    {
+      "campaign": "coordinator-crash",
+      "status": "PASSED",
+      "hashes_verified": 44,
+      "counts": {
+        "QUEUED": 0,
+        "RUNNING": 0,
+        "SUCCEEDED": 4,
+        "FAILED": 0,
+        "UNSCHEDULABLE": 0
+      },
+      "attempts": 4
+    },
+    {
+      "campaign": "worker-crash",
+      "status": "PASSED",
+      "hashes_verified": 11,
+      "counts": {
+        "QUEUED": 0,
+        "RUNNING": 0,
+        "SUCCEEDED": 1,
+        "FAILED": 0,
+        "UNSCHEDULABLE": 0
+      },
+      "attempts": 2
+    },
+    {
+      "campaign": "timeout",
+      "status": "PASSED",
+      "hashes_verified": 11,
+      "counts": {
+        "QUEUED": 0,
+        "RUNNING": 0,
+        "SUCCEEDED": 1,
+        "FAILED": 1,
+        "UNSCHEDULABLE": 0
+      },
+      "attempts": 2
+    },
+    {
+      "campaign": "retry-exhaustion",
+      "status": "PASSED",
+      "hashes_verified": 11,
+      "counts": {
+        "QUEUED": 0,
+        "RUNNING": 0,
+        "SUCCEEDED": 1,
+        "FAILED": 1,
+        "UNSCHEDULABLE": 0
+      },
+      "attempts": 3
+    }
+  ],
+  "finished_at": 1793346378.3117282,
+  "limitations": [
+    "Timeouts deliberately occur during process startup.",
+    "One controlled repetition per fault scenario.",
+    "No host loss, disk failure, or multi-node recovery tested.",
+    "Interrupted work may be recomputed; not exactly-once."
+  ]
+}

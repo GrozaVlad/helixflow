@@ -1,0 +1,1088 @@
+{
+  "status": "PASSED",
+  "jobs": 60,
+  "executions": 120,
+  "artifact_hashes_verified": 1440,
+  "profiles": [
+    {
+      "job_id": "181l_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.291061877000175,
+      "peak_device_memory_gib": 5.162109375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a3f_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.82446677600092,
+      "peak_device_memory_gib": 6.041015625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1afa_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.31955195000046,
+      "peak_device_memory_gib": 7.677734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1aky_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.9495467050001,
+      "peak_device_memory_gib": 12.201171875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10br_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.336277555998095,
+      "peak_device_memory_gib": 9.087890625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a79_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.79096214099991,
+      "peak_device_memory_gib": 6.75,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "104m_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 38.74768828900051,
+      "peak_device_memory_gib": 3.845703125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ajw_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.34665745999882,
+      "peak_device_memory_gib": 4.728515625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1afu_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 38.73657660699973,
+      "peak_device_memory_gib": 3.724609375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11af_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.39233524800147,
+      "peak_device_memory_gib": 8.515625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1agq_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.78665518300113,
+      "peak_device_memory_gib": 3.451171875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10rc_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.794533780001075,
+      "peak_device_memory_gib": 6.361328125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12uw_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.412096248001035,
+      "peak_device_memory_gib": 9.77734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11cf_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 38.736068225000054,
+      "peak_device_memory_gib": 3.46875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ah6_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.37086928200006,
+      "peak_device_memory_gib": 9.70703125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ab5_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.33418509999683,
+      "peak_device_memory_gib": 6.212890625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13rm_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.931187220998254,
+      "peak_device_memory_gib": 8.279296875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13df_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.349998632998904,
+      "peak_device_memory_gib": 9.77734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13hq_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.22512901600203,
+      "peak_device_memory_gib": 5.107421875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1akk_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.78357844000129,
+      "peak_device_memory_gib": 5.580078125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13lz_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.96623462700154,
+      "peak_device_memory_gib": 7.9140625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "14yt_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 45.857355070002086,
+      "peak_device_memory_gib": 9.04296875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11nx_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 43.130287764997775,
+      "peak_device_memory_gib": 14.9375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12as_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 42.507031527002255,
+      "peak_device_memory_gib": 8.419921875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10ak_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 48.60976404399844,
+      "peak_device_memory_gib": 10.251953125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12yf_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.877943781000795,
+      "peak_device_memory_gib": 4.65234375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13qx_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.40935982099836,
+      "peak_device_memory_gib": 4.623046875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10oo_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 44.16815063899776,
+      "peak_device_memory_gib": 15.98046875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11bd_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.93364768599713,
+      "peak_device_memory_gib": 11.52734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10kt_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 47.46539486799884,
+      "peak_device_memory_gib": 9.701171875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12av_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 48.6233483420001,
+      "peak_device_memory_gib": 9.859375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10zg_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.351983151998866,
+      "peak_device_memory_gib": 9.060546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11zl_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 44.153091185999074,
+      "peak_device_memory_gib": 16.0,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12ew_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 44.76757153200015,
+      "peak_device_memory_gib": 17.068359375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10pp_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.86635373600075,
+      "peak_device_memory_gib": 12.474609375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10mn_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.98165291699843,
+      "peak_device_memory_gib": 14.158203125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11br_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.94980472500174,
+      "peak_device_memory_gib": 6.568359375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10ot_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.84068088999993,
+      "peak_device_memory_gib": 4.845703125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10qs_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.91860052899938,
+      "peak_device_memory_gib": 12.0546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10ef_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.423584946998744,
+      "peak_device_memory_gib": 8.9375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12vd_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.44175709600313,
+      "peak_device_memory_gib": 8.40625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dt6_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 51.83691122500022,
+      "peak_device_memory_gib": 11.423828125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dfa_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.36991491000299,
+      "peak_device_memory_gib": 8.5625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1akn_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 56.776232022999466,
+      "peak_device_memory_gib": 13.060546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1e7g_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 50.2621738859998,
+      "peak_device_memory_gib": 7.294921875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1cy1_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 58.41869384099846,
+      "peak_device_memory_gib": 13.59765625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ck7_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 57.850307241002156,
+      "peak_device_memory_gib": 13.861328125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1aor_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 60.5711551860004,
+      "peak_device_memory_gib": 14.33984375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11eu_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 56.21266002899938,
+      "peak_device_memory_gib": 11.0546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1d0h_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 44.23259929800042,
+      "peak_device_memory_gib": 5.17578125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dpi_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 56.7458226130002,
+      "peak_device_memory_gib": 13.30078125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11zt_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 45.827112160997785,
+      "peak_device_memory_gib": 5.951171875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a6r_1",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 49.104472896000516,
+      "peak_device_memory_gib": 10.4765625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11kk_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 51.29394193800181,
+      "peak_device_memory_gib": 11.08203125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1btc_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.893850491000194,
+      "peak_device_memory_gib": 7.443359375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dnp_1",
+      "repeat": 1,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 49.664775070999895,
+      "peak_device_memory_gib": 10.4765625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a31_3",
+      "repeat": 1,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 53.044890592998854,
+      "peak_device_memory_gib": 10.83984375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1cqz_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 54.013561216997914,
+      "peak_device_memory_gib": 12.22265625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1bwf_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 51.27457928799777,
+      "peak_device_memory_gib": 11.052734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11oa_1",
+      "repeat": 1,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 58.387655729999096,
+      "peak_device_memory_gib": 13.89453125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "181l_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.29168580199985,
+      "peak_device_memory_gib": 5.162109375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a3f_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.76985946199784,
+      "peak_device_memory_gib": 6.04296875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1afa_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.33943919599915,
+      "peak_device_memory_gib": 7.677734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1aky_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.95391334699889,
+      "peak_device_memory_gib": 12.201171875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10br_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.32324047500151,
+      "peak_device_memory_gib": 9.087890625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a79_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.7812582789993,
+      "peak_device_memory_gib": 6.75,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "104m_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.23086896799941,
+      "peak_device_memory_gib": 3.845703125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ajw_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.8125714179987,
+      "peak_device_memory_gib": 4.728515625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1afu_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 38.705826317000174,
+      "peak_device_memory_gib": 3.724609375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11af_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.35800155299876,
+      "peak_device_memory_gib": 8.515625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1agq_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.279956821999804,
+      "peak_device_memory_gib": 3.451171875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10rc_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.32604241900117,
+      "peak_device_memory_gib": 6.361328125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12uw_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.949379947000125,
+      "peak_device_memory_gib": 9.77734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11cf_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 38.68973753899991,
+      "peak_device_memory_gib": 3.46875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ah6_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.34200585399958,
+      "peak_device_memory_gib": 9.70703125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ab5_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.763082782999845,
+      "peak_device_memory_gib": 6.212890625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13rm_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.91418244600209,
+      "peak_device_memory_gib": 8.279296875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13df_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.34220980700047,
+      "peak_device_memory_gib": 9.77734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13hq_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.81254247000106,
+      "peak_device_memory_gib": 5.107421875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1akk_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 39.78030483300245,
+      "peak_device_memory_gib": 5.580078125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13lz_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.95404990699899,
+      "peak_device_memory_gib": 7.9140625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "14yt_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.45393446699745,
+      "peak_device_memory_gib": 9.04296875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11nx_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 43.074057223002455,
+      "peak_device_memory_gib": 14.9375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12as_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.96020215399767,
+      "peak_device_memory_gib": 8.419921875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10ak_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 49.18718922900007,
+      "peak_device_memory_gib": 10.251953125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12yf_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.8764067230004,
+      "peak_device_memory_gib": 4.65234375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "13qx_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.97240490600234,
+      "peak_device_memory_gib": 4.623046875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10oo_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 43.60179717799838,
+      "peak_device_memory_gib": 15.974609375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11bd_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.922512779998215,
+      "peak_device_memory_gib": 11.525390625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10kt_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 48.04979658400043,
+      "peak_device_memory_gib": 9.708984375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12av_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 47.48655898499783,
+      "peak_device_memory_gib": 9.859375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10zg_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.353686282000126,
+      "peak_device_memory_gib": 9.060546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11zl_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 44.759926474001986,
+      "peak_device_memory_gib": 16.0,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12ew_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 44.69150872600221,
+      "peak_device_memory_gib": 17.068359375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10pp_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.50173103499765,
+      "peak_device_memory_gib": 12.474609375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10mn_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 42.52329969999846,
+      "peak_device_memory_gib": 14.158203125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11br_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.95062952599983,
+      "peak_device_memory_gib": 6.568359375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10ot_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 40.32481281999935,
+      "peak_device_memory_gib": 4.845703125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10qs_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 41.481986129998404,
+      "peak_device_memory_gib": 12.0546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "10ef_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.3999132559984,
+      "peak_device_memory_gib": 8.9375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "12vd_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.36359947600067,
+      "peak_device_memory_gib": 8.40625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dt6_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 51.26652004599964,
+      "peak_device_memory_gib": 11.423828125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dfa_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.388787619998766,
+      "peak_device_memory_gib": 8.5625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1akn_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 55.6564681939999,
+      "peak_device_memory_gib": 13.060546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1e7g_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 49.653517048998765,
+      "peak_device_memory_gib": 7.294921875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1cy1_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 57.98704147600074,
+      "peak_device_memory_gib": 13.59765625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1ck7_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 58.42005198600236,
+      "peak_device_memory_gib": 13.861328125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1aor_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 60.682617343001766,
+      "peak_device_memory_gib": 14.33984375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11eu_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 56.26291097400099,
+      "peak_device_memory_gib": 11.0546875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1d0h_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 44.17337726900223,
+      "peak_device_memory_gib": 5.17578125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dpi_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 56.210488016000454,
+      "peak_device_memory_gib": 13.30078125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11zt_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 45.80956044100094,
+      "peak_device_memory_gib": 5.951171875,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a6r_1",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 49.082018415003404,
+      "peak_device_memory_gib": 10.4765625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11kk_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 50.733258978001686,
+      "peak_device_memory_gib": 11.08203125,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1btc_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 46.91518700599772,
+      "peak_device_memory_gib": 7.443359375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1dnp_1",
+      "repeat": 2,
+      "split": "test",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 49.095187245999114,
+      "peak_device_memory_gib": 10.4765625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1a31_3",
+      "repeat": 2,
+      "split": "calibration",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 52.37301337700046,
+      "peak_device_memory_gib": 10.83984375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1cqz_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 54.02838120500019,
+      "peak_device_memory_gib": 12.22265625,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "1bwf_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 50.79083226700095,
+      "peak_device_memory_gib": 11.052734375,
+      "verified_artifacts": 12
+    },
+    {
+      "job_id": "11oa_1",
+      "repeat": 2,
+      "split": "train",
+      "status": "SUCCEEDED",
+      "runtime_seconds": 58.398402568000165,
+      "peak_device_memory_gib": 13.89453125,
+      "verified_artifacts": 12
+    }
+  ]
+}

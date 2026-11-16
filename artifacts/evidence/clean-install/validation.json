@@ -1,0 +1,36 @@
+{
+  "status": "PASSED",
+  "jobs": 2,
+  "artifacts_verified": 22,
+  "network": "none",
+  "model_assets": "preprovisioned read-only cache",
+  "settings": "shipped reduced-step single-sequence smoke fixture",
+  "not_performance_or_biological_validation": true,
+  "metrics": {
+    "counts": {
+      "QUEUED": 0,
+      "RUNNING": 0,
+      "SUCCEEDED": 2,
+      "FAILED": 0,
+      "UNSCHEDULABLE": 0
+    },
+    "all_terminal": true,
+    "accepted_jobs": 2,
+    "attempt_count": 2,
+    "mean_initial_wait_seconds": 8.893999934196472,
+    "p95_initial_wait_seconds": 16.8326647400856,
+    "waits_at_or_above_aging_threshold": 0,
+    "mean_successful_flow_seconds": 24.930887579917908,
+    "p95_successful_flow_seconds": 31.43421801328659,
+    "campaign_observed_seconds": 32.15681028366089,
+    "successful_jobs_per_hour": 223.90280430451688,
+    "measured_attempt_service_seconds": 32.01442075700015,
+    "worker_occupancy_fraction": 0.9955720257884817,
+    "mean_successful_flow_by_owner": {
+      "researcher-a": 17.704964876174927,
+      "researcher-b": 32.15681028366089
+    },
+    "inverse_mean_slowdown_jain_successful_only": 0.8746729938718398,
+    "attempts_without_runtime_measurement": 0
+  }
+}

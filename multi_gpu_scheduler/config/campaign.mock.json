@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "backend": "mock",
+  "benchmark": "../workloads/public-v1-heme-ccd",
+  "gpu_counts": [1, 2, 4],
+  "variants": ["fcfs", "token_sjf", "predicted_sjf", "fair_service", "uaf_sjf", "uaf_no_service"],
+  "traces": ["saturated", "burst"],
+  "burst_gap_seconds": 0.3,
+  "repetitions": 3,
+  "seed": 42,
+  "mock_duration_seconds": 0.05
+}

@@ -1,0 +1,21 @@
+services:
+  scheduler:
+    build:
+      context: ..
+      dockerfile: multi_gpu_scheduler/Dockerfile
+    image: boltz2-multi-gpu-scheduler:0.1.0
+    volumes:
+      - ../local_install/cache:/workspace/cache
+      - ./workloads:/workspace/workloads:ro
+      - ./results:/workspace/results
+      - ./examples:/workspace/examples:ro
+      - ./results/gpu-locks:/workspace/gpu-locks
+    environment:
+      BOLTZ_CACHE: /workspace/cache
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
+      HELIXFLOW_LOCK_DIR: /workspace/gpu-locks
+    gpus: all
+    shm_size: "16gb"
+    stdin_open: true
+    tty: true

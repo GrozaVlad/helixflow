@@ -1,0 +1,27 @@
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+ box/.style={draw=blue!55!black,fill=blue!4,rounded corners=2pt,
+ align=center,text width=5.5cm,minimum height=1.05cm,font=\fontsize{9}{11}\selectfont},
+ store/.style={box,draw=teal!60!black,fill=teal!5},
+ flow/.style={-{Latex[length=2mm]},thick,draw=black!65}]
+\node[font=\fontsize{11}{13}\selectfont\bfseries] at (0,0) {(a) Interactive workbench};
+\node[font=\fontsize{11}{13}\selectfont\bfseries] at (7,0) {(b) Portable multi-GPU runner};
+\node[box] (ui) at (0,-1) {Browser: YAML/FASTA upload\\Settings, status, logs};
+\node[box] (api) at (0,-2.65) {FastAPI application\\GPU lock: one prediction at a time};
+\node[box] (single) at (0,-4.3) {Boltz subprocess\\One local GPU};
+\node[store] (files) at (0,-5.95) {Host files and model cache\\Structures and confidence\\Affinity when requested};
+\node[box] (view) at (0,-7.6) {Downloads and Mol* viewer\\Job-specific results and failure logs};
+\draw[flow] (ui)--(api); \draw[flow] (api)--(single);
+\draw[flow] (single)--(files); \draw[flow] (files)--(view);
+\node[box] (cli) at (7,-1) {CLI campaign submission\\Snapshot inputs, MSAs, settings, hashes};
+\node[store] (db) at (7,-2.65) {SQLite durable jobs and attempts\\Features; runtime/memory estimates};
+\node[box] (coord) at (7,-4.3) {Coordinator: scheduling policy\\Select waiting job; lease GPU by UUID};
+\node[box] (workers) at (7,-5.95) {One container; Boltz processes\\GPU 0 \quad GPU 1 \quad GPU 2 \quad GPU 3};
+\node[store] (receipts) at (7,-7.6) {Outputs, receipts, telemetry\\Check hashes; publish results\\Export reports};
+\draw[flow] (cli)--(db); \draw[flow] (db)--(coord);
+\draw[flow] (coord)--(workers); \draw[flow] (workers)--(receipts);
+\draw[flow] (receipts.east) -- ++(.55,0) |- (db.east);
+\node[font=\fontsize{9}{11}\selectfont,align=center,text width=12cm] at (3.5,-9.25)
+ {Persistent host storage; frozen MSAs and cached models.\\No nested worker containers.};
+\end{tikzpicture}%
+}

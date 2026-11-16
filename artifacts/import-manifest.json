@@ -1,0 +1,1121 @@
+{
+  "source_commit": "f4d908674d2d9dd232398ed36bf1a70a155b7d38",
+  "note": "Working-tree files copied without modification; later destination edits are not represented by these initial hashes.",
+  "files": [
+    {
+      "source": ".github/workflows/ci.yml",
+      "destination": ".github/workflows/ci.yml",
+      "sha256": "c82b26d1ddaac756b3524a58348960b77aa8cff1d4f46b3223db6cffb9557b87"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "sha256": "cebefa169c65b7217df1bd898e072c2026a0b5af3ef2f0ba601ac3e4587ee7a4"
+    },
+    {
+      "source": "aws_distributed/README.md",
+      "destination": "aws_distributed/README.md",
+      "sha256": "a0fa59f82141be1347d15ca74e810e5602561adb142a5bf572e95d44f542421d"
+    },
+    {
+      "source": "aws_distributed/experiments/README.md",
+      "destination": "aws_distributed/experiments/README.md",
+      "sha256": "dee19494694eb6e1afbd2a867c677b5ad6bf453f012838d5ba83cc91ec54bf36"
+    },
+    {
+      "source": "aws_distributed/experiments/workload.py",
+      "destination": "aws_distributed/experiments/workload.py",
+      "sha256": "4baa923cb9aa2ca9659eafab86a591a0aa6f3ddd1a199f36bdc6097673efafdb"
+    },
+    {
+      "source": "aws_distributed/pyproject.toml",
+      "destination": "aws_distributed/pyproject.toml",
+      "sha256": "11ae901f411c339172b9a6ea8a0270c45b96bcc26d8866631eafd4c82afb41ac"
+    },
+    {
+      "source": "aws_distributed/services/Dockerfile.lambda",
+      "destination": "aws_distributed/services/Dockerfile.lambda",
+      "sha256": "c0e1567c1ec20c4ec1228b25bb7c0c971dffa421f5d7619abd917897bd8daf9a"
+    },
+    {
+      "source": "aws_distributed/services/Dockerfile.lambda.dockerignore",
+      "destination": "aws_distributed/services/Dockerfile.lambda.dockerignore",
+      "sha256": "7441a9d896b5f0ee401836a0ca2fca4ddc442bec9e3ba69cbba55734d341eb38"
+    },
+    {
+      "source": "aws_distributed/services/__init__.py",
+      "destination": "aws_distributed/services/__init__.py",
+      "sha256": "a95776ca9a59989a14000cb9f22533b9d84350a63a77abb005e5bbffcacfa231"
+    },
+    {
+      "source": "aws_distributed/services/api/Dockerfile",
+      "destination": "aws_distributed/services/api/Dockerfile",
+      "sha256": "e6f420431dabe28ecb47c864aed29577df40b0e72fd84908c9b5b61a97db23be"
+    },
+    {
+      "source": "aws_distributed/services/api/__init__.py",
+      "destination": "aws_distributed/services/api/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "aws_distributed/services/api/aws_store.py",
+      "destination": "aws_distributed/services/api/aws_store.py",
+      "sha256": "9244dacdeb97923cc1699a91e3f987dfeef81876392f7e8c7e7fc9684fa546de"
+    },
+    {
+      "source": "aws_distributed/services/api/config.py",
+      "destination": "aws_distributed/services/api/config.py",
+      "sha256": "fbf66c466a285d528fe6e52fce5b88eb73e62cded1edfd37d0943324cfd6fe46"
+    },
+    {
+      "source": "aws_distributed/services/api/main.py",
+      "destination": "aws_distributed/services/api/main.py",
+      "sha256": "53251d70497e9cd4f68de16559596b881f59cf4a4bf7b24a7902cb69acf829c7"
+    },
+    {
+      "source": "aws_distributed/services/dispatcher/__init__.py",
+      "destination": "aws_distributed/services/dispatcher/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "aws_distributed/services/dispatcher/handler.py",
+      "destination": "aws_distributed/services/dispatcher/handler.py",
+      "sha256": "a0993b9941bac48913d91f769a287557c880ec3f8a4a6d65ff08c2c28ef48cd5"
+    },
+    {
+      "source": "aws_distributed/services/finalizer/__init__.py",
+      "destination": "aws_distributed/services/finalizer/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "aws_distributed/services/finalizer/handler.py",
+      "destination": "aws_distributed/services/finalizer/handler.py",
+      "sha256": "f3c5273db2a6101d1db72891546806ce55aff59149e5c712579cfb2c7bfee589"
+    },
+    {
+      "source": "aws_distributed/services/reconciler/__init__.py",
+      "destination": "aws_distributed/services/reconciler/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "aws_distributed/services/reconciler/handler.py",
+      "destination": "aws_distributed/services/reconciler/handler.py",
+      "sha256": "548c96c2e44ff2c30e0fa5b52197dc8443df1277bd2775b40984fae36a33e504"
+    },
+    {
+      "source": "aws_distributed/services/scheduler/__init__.py",
+      "destination": "aws_distributed/services/scheduler/__init__.py",
+      "sha256": "87aa7ed273e6c156d689d4658c51db7d49fbf5d8a1c924b8d6afd75514ea4671"
+    },
+    {
+      "source": "aws_distributed/services/scheduler/handler.py",
+      "destination": "aws_distributed/services/scheduler/handler.py",
+      "sha256": "1a233c206668530bfbfa93f51db6807810a8e569f1e17648017f55e4f3476d2e"
+    },
+    {
+      "source": "aws_distributed/shared/__init__.py",
+      "destination": "aws_distributed/shared/__init__.py",
+      "sha256": "d67d7692de9362622ccbe417febbb26e46721cab88ce18bb74b5875a3f1693af"
+    },
+    {
+      "source": "aws_distributed/shared/models.py",
+      "destination": "aws_distributed/shared/models.py",
+      "sha256": "303597f8b6256e9372f048a02dde187e8a8c8c3396a7c54a681a0c97d02bb1ab"
+    },
+    {
+      "source": "aws_distributed/shared/registry.json",
+      "destination": "aws_distributed/shared/registry.json",
+      "sha256": "f2003c2bdd3eb2616a5a41c7057fa7925a847e626291a2a12b6ab9ea3904695f"
+    },
+    {
+      "source": "aws_distributed/shared/scheduling.py",
+      "destination": "aws_distributed/shared/scheduling.py",
+      "sha256": "92732c65b08cf160f07b9165490c604d02fcf0a7df31eade12612a93d1e6c129"
+    },
+    {
+      "source": "aws_distributed/terraform/.terraform.lock.hcl",
+      "destination": "aws_distributed/terraform/.terraform.lock.hcl",
+      "sha256": "6d66c75265639ba1ee2bc72a4561c4b26b3b51d945af67a56357428d4db1abce"
+    },
+    {
+      "source": "aws_distributed/terraform/main.tf",
+      "destination": "aws_distributed/terraform/main.tf",
+      "sha256": "cd97388aae226e6ba591fdfcbb2a5899e165ab3cc57b97a0bea279f59a908395"
+    },
+    {
+      "source": "aws_distributed/terraform/outputs.tf",
+      "destination": "aws_distributed/terraform/outputs.tf",
+      "sha256": "fa0e4755b8e1b17a8c7c0f0d15c69ea2b20a697363dc6300990850f1aab32fd5"
+    },
+    {
+      "source": "aws_distributed/terraform/variables.tf",
+      "destination": "aws_distributed/terraform/variables.tf",
+      "sha256": "31caa50176f31341032d14947a0cb6797bfb8b524dafab51bba377f82d67eab9"
+    },
+    {
+      "source": "aws_distributed/terraform/versions.tf",
+      "destination": "aws_distributed/terraform/versions.tf",
+      "sha256": "9553d29b2ce5ed78f1106497685721d14dbb8fd3c94509bbafcf1f5f4b1c4708"
+    },
+    {
+      "source": "aws_distributed/terraform/workflow.asl.json",
+      "destination": "aws_distributed/terraform/workflow.asl.json",
+      "sha256": "254aa241d33bb29506a1d454cc21abb395129445e71837c695c49b8f11cda669"
+    },
+    {
+      "source": "aws_distributed/terraform/workflow_scheduled.asl.json",
+      "destination": "aws_distributed/terraform/workflow_scheduled.asl.json",
+      "sha256": "b53abcd98a1f5e38cf6da4649fb57988e8475d7bc807a2feb477e1c97844c685"
+    },
+    {
+      "source": "aws_distributed/tests/test_dispatcher.py",
+      "destination": "aws_distributed/tests/test_dispatcher.py",
+      "sha256": "806dd5e6d3f5d717406b31e5b5997fb777f024c422708331e357df65e95afb00"
+    },
+    {
+      "source": "aws_distributed/tests/test_models.py",
+      "destination": "aws_distributed/tests/test_models.py",
+      "sha256": "dc7e6920c753db2f4ed717b3bd9c9fc97fad430ad80cb720f4c429e7e6a02e51"
+    },
+    {
+      "source": "aws_distributed/tests/test_msa_scheduling.py",
+      "destination": "aws_distributed/tests/test_msa_scheduling.py",
+      "sha256": "253156560d8d279417773958544980b024a9007f72422e6a2a00b177952e4d21"
+    },
+    {
+      "source": "aws_distributed/tests/test_scheduling.py",
+      "destination": "aws_distributed/tests/test_scheduling.py",
+      "sha256": "c66a63c17c4318b6216837766a22debeffc6275417a60d8c329edaebd80724ff"
+    },
+    {
+      "source": "aws_distributed/ui/index.html",
+      "destination": "aws_distributed/ui/index.html",
+      "sha256": "dade3d78fbceef60cf68443482d1efeb1e9879d03fe27ab3d76d386f11694e6c"
+    },
+    {
+      "source": "aws_distributed/ui/molstar/molstar.css",
+      "destination": "aws_distributed/ui/molstar/molstar.css",
+      "sha256": "9616828308fa7ed02b54103b1923986ad86afe23b96e8761e6628958d278a3b8"
+    },
+    {
+      "source": "aws_distributed/ui/molstar/molstar.js",
+      "destination": "aws_distributed/ui/molstar/molstar.js",
+      "sha256": "9d31678d2a025ef25805f5b18366c97fbbd1a60616ea5821b05c61cd82da5698"
+    },
+    {
+      "source": "aws_distributed/workers/__init__.py",
+      "destination": "aws_distributed/workers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "aws_distributed/workers/boltz/Dockerfile",
+      "destination": "aws_distributed/workers/boltz/Dockerfile",
+      "sha256": "ea9d86abb86d3b7109377e97896d99ff8f55da66cc44bee31c7fd8580f76d61e"
+    },
+    {
+      "source": "aws_distributed/workers/boltz/__init__.py",
+      "destination": "aws_distributed/workers/boltz/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "aws_distributed/workers/boltz/runner.py",
+      "destination": "aws_distributed/workers/boltz/runner.py",
+      "sha256": "936b0765ce865f39bd4480f7cc87d9ebf5aac83690332055e4e470ad53049a60"
+    },
+    {
+      "source": "aws_distributed/workers/common.py",
+      "destination": "aws_distributed/workers/common.py",
+      "sha256": "9c56407b4ddfcdac38303ad88912c99a4852df82678c25870da1f135814038f1"
+    },
+    {
+      "source": "aws_distributed/workers/msa/Dockerfile",
+      "destination": "aws_distributed/workers/msa/Dockerfile",
+      "sha256": "0c66a0f9642d63b92f06dfbe852febd4e3125ee84ace8167739b86635886e999"
+    },
+    {
+      "source": "aws_distributed/workers/msa/Dockerfile.dockerignore",
+      "destination": "aws_distributed/workers/msa/Dockerfile.dockerignore",
+      "sha256": "8c7617e8dfd290ccc02acffb9575da4df0177059923355091dc758a3e171612c"
+    },
+    {
+      "source": "aws_distributed/workers/msa/__init__.py",
+      "destination": "aws_distributed/workers/msa/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "aws_distributed/workers/msa/runner.py",
+      "destination": "aws_distributed/workers/msa/runner.py",
+      "sha256": "bcf3feb19b434ed226b0d228f39896c85f69584c2cc1dd7cbd13b377f9699bd1"
+    },
+    {
+      "source": "aws_distributed/workers/msa/scheduling.py",
+      "destination": "aws_distributed/workers/msa/scheduling.py",
+      "sha256": "f2fbe02bf1d655abc28f7a2e2c03c7cbd4cbb011fe35d29529dc3f6b6efaa33f"
+    },
+    {
+      "source": "local_install/.dockerignore",
+      "destination": "local_install/.dockerignore",
+      "sha256": "cc4f9b570f8835d43014a0c1dc36c9ecc59da949e6455338ee39e99becd75060"
+    },
+    {
+      "source": "local_install/.gitignore",
+      "destination": "local_install/.gitignore",
+      "sha256": "5a23261d98b4c8bbe9e4f57741cbdb7c1c747d57d1bb0d2e433ccaadcaffbb0a"
+    },
+    {
+      "source": "local_install/Dockerfile",
+      "destination": "local_install/Dockerfile",
+      "sha256": "69560a66ece14481356efc9ed84226c0e2d6c0c5e1127a21af5a3a46d3a90d06"
+    },
+    {
+      "source": "local_install/README.md",
+      "destination": "local_install/README.md",
+      "sha256": "e46f7618d027c641afa39a7d040a262ec7d5096f6970f3fd0d13f7b1ddf84413"
+    },
+    {
+      "source": "local_install/app/__init__.py",
+      "destination": "local_install/app/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "local_install/app/main.py",
+      "destination": "local_install/app/main.py",
+      "sha256": "abd4ec0e6214dd142def3e4a93422bd944ccefb79e54911b86ebaa39c1392968"
+    },
+    {
+      "source": "local_install/app/static/app.js",
+      "destination": "local_install/app/static/app.js",
+      "sha256": "33ec3a88b56d480e8bb55bf43586a329b63539d3c176c965719afd63e071890c"
+    },
+    {
+      "source": "local_install/app/static/index.html",
+      "destination": "local_install/app/static/index.html",
+      "sha256": "8b4da6349842fdddff97bd9bddbb292fa0ee0caa162b994d41f3dddaaab5bbeb"
+    },
+    {
+      "source": "local_install/app/static/molstar/molstar.css",
+      "destination": "local_install/app/static/molstar/molstar.css",
+      "sha256": "9616828308fa7ed02b54103b1923986ad86afe23b96e8761e6628958d278a3b8"
+    },
+    {
+      "source": "local_install/app/static/molstar/molstar.js",
+      "destination": "local_install/app/static/molstar/molstar.js",
+      "sha256": "9d31678d2a025ef25805f5b18366c97fbbd1a60616ea5821b05c61cd82da5698"
+    },
+    {
+      "source": "local_install/app/static/style.css",
+      "destination": "local_install/app/static/style.css",
+      "sha256": "df101bdf3af59d12bd03ee654dcbbe9556792032720e432082a6406b12b52e6c"
+    },
+    {
+      "source": "local_install/app/static/viewer.js",
+      "destination": "local_install/app/static/viewer.js",
+      "sha256": "6ffb099fccf3a4a17ce6970e09e40b781cbba5db8c01addc5dfa1ca10f2723d1"
+    },
+    {
+      "source": "local_install/compose.yaml",
+      "destination": "local_install/compose.yaml",
+      "sha256": "d675ccb1b34df3b2463478121778c57644f38455239bbc3861df43df895a1846"
+    },
+    {
+      "source": "local_install/data/inputs/.gitkeep",
+      "destination": "local_install/data/inputs/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "local_install/data/outputs/.gitkeep",
+      "destination": "local_install/data/outputs/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "local_install/examples/estradiol_ESR1_long_fixed.yaml",
+      "destination": "local_install/examples/estradiol_ESR1_long_fixed.yaml",
+      "sha256": "b7c36c6480dd3b47ec08c9baa26b4ee3122ec3b0dff6258f3c63734ff0cfe356"
+    },
+    {
+      "source": "local_install/examples/example.fasta",
+      "destination": "local_install/examples/example.fasta",
+      "sha256": "b55401451cc5bed19e0ba6d804317afb1a2b03ee0aeeb9ac1cb21566d904df24"
+    },
+    {
+      "source": "local_install/examples/example_2.yaml",
+      "destination": "local_install/examples/example_2.yaml",
+      "sha256": "d85c7e4a26e80e60f890ea441a5a183dadce6737930f6787f458e172a1785285"
+    },
+    {
+      "source": "local_install/requirements.txt",
+      "destination": "local_install/requirements.txt",
+      "sha256": "80d4acc0daa67ef7f2b5c727f0e49226590bb84f4099e0a099c3b61bba0ff300"
+    },
+    {
+      "source": "local_install/run.sh",
+      "destination": "local_install/run.sh",
+      "sha256": "8ae0765a92f753c63c4c867930335e380faa72ec0fb1341733d6d0528cddf319"
+    },
+    {
+      "source": "local_install/stop.sh",
+      "destination": "local_install/stop.sh",
+      "sha256": "a63c57e34bd4a33793a22c8b8eb65f450a89a43e7ff02f2fc0547341b1d92a08"
+    },
+    {
+      "source": "multi_gpu_scheduler/.gitignore",
+      "destination": "multi_gpu_scheduler/.gitignore",
+      "sha256": "486ee0b71041cc5dcdc166cd601d414956050dd83809aef783c9dc9e230ab372"
+    },
+    {
+      "source": "multi_gpu_scheduler/Dockerfile",
+      "destination": "multi_gpu_scheduler/Dockerfile",
+      "sha256": "2be9eb6c12022fec1b85029a7d76483439d32ab47f6eed815e333e82bc8c1a9b"
+    },
+    {
+      "source": "multi_gpu_scheduler/Dockerfile.dockerignore",
+      "destination": "multi_gpu_scheduler/Dockerfile.dockerignore",
+      "sha256": "ede6c6cebc37ad2bf2e60fa3bd32be32c3e708cd989aed0b0ca91958bfe4b338"
+    },
+    {
+      "source": "multi_gpu_scheduler/EXPERIMENT_PLAN.md",
+      "destination": "multi_gpu_scheduler/EXPERIMENT_PLAN.md",
+      "sha256": "566af016c8c813223b22ef5949a2e927cbbd95069ac8a1774539092950e1360e"
+    },
+    {
+      "source": "multi_gpu_scheduler/LIVE_EXECUTION.md",
+      "destination": "multi_gpu_scheduler/LIVE_EXECUTION.md",
+      "sha256": "c103c2292e823ffe7bf1160a300f10813d9aabab54f099152e171753e243f2bb"
+    },
+    {
+      "source": "multi_gpu_scheduler/PREVM_VALIDATION.md",
+      "destination": "multi_gpu_scheduler/PREVM_VALIDATION.md",
+      "sha256": "d02139a2124b891fc19eae25dde4c7227de2e9c03f9bc1cd34f6942dd06e77ef"
+    },
+    {
+      "source": "multi_gpu_scheduler/README.md",
+      "destination": "multi_gpu_scheduler/README.md",
+      "sha256": "1d4fa22a6c0a1ccde105f9bee966138b3f807d5df4eb9c83c0d57d42a9b587dd"
+    },
+    {
+      "source": "multi_gpu_scheduler/VALIDATION.md",
+      "destination": "multi_gpu_scheduler/VALIDATION.md",
+      "sha256": "3f71c12cc8bc45a76f8cce0cbb8aa4275ec83b021f350f24f3cedfc3ab69bcbc"
+    },
+    {
+      "source": "multi_gpu_scheduler/VM_RUNBOOK.md",
+      "destination": "multi_gpu_scheduler/VM_RUNBOOK.md",
+      "sha256": "02092b1d19ed237644340ceaf0cf5ee52c21192dae004b83025d289a57822b73"
+    },
+    {
+      "source": "multi_gpu_scheduler/compose.yaml",
+      "destination": "multi_gpu_scheduler/compose.yaml",
+      "sha256": "e44224ad59875b91c21f9f79b1932049eb5b632651afc527fc81054e55c3eaac"
+    },
+    {
+      "source": "multi_gpu_scheduler/config/campaign.example.json",
+      "destination": "multi_gpu_scheduler/config/campaign.example.json",
+      "sha256": "9ce8f63a3d592b4c1f56e9ce54a6b5c9d8af90b878c66f3ceb568021c9f56986"
+    },
+    {
+      "source": "multi_gpu_scheduler/config/campaign.mock.json",
+      "destination": "multi_gpu_scheduler/config/campaign.mock.json",
+      "sha256": "7162a0985f277e8f02e10c855ce5a324776d79146654c76bed6c21c69a443d0d"
+    },
+    {
+      "source": "multi_gpu_scheduler/config/g6.12xlarge.json",
+      "destination": "multi_gpu_scheduler/config/g6.12xlarge.json",
+      "sha256": "1e633643bc7a3d71728f13eefe5dba798279ccbb0bbdefef87ee10b32ac93f01"
+    },
+    {
+      "source": "multi_gpu_scheduler/config/public-v1-heme-ccd.snapshot.json",
+      "destination": "multi_gpu_scheduler/config/public-v1-heme-ccd.snapshot.json",
+      "sha256": "5677833a24581b273b8dcf1b7b1b03405a86f53e153d49c6feed5f1128d3e01d"
+    },
+    {
+      "source": "multi_gpu_scheduler/config/public-v1.snapshot.json",
+      "destination": "multi_gpu_scheduler/config/public-v1.snapshot.json",
+      "sha256": "7af10510abbd9c27794e037e3659be02fb84f2624f6094f1e850fa1791f94604"
+    },
+    {
+      "source": "multi_gpu_scheduler/config/university.example.json",
+      "destination": "multi_gpu_scheduler/config/university.example.json",
+      "sha256": "baa3bfb6191e6a09e6c68bbb53854df632b2e3c9f621e6d69b05fa89f2b26bb5"
+    },
+    {
+      "source": "multi_gpu_scheduler/deploy/vast/.dockerignore",
+      "destination": "multi_gpu_scheduler/deploy/vast/.dockerignore",
+      "sha256": "cc67af24f89a4f2d6131ffe0d479e5c94894705fa789bf14f2aab03bd1bd3f21"
+    },
+    {
+      "source": "multi_gpu_scheduler/deploy/vast/Dockerfile",
+      "destination": "multi_gpu_scheduler/deploy/vast/Dockerfile",
+      "sha256": "db487b3c4a33245c33ed6078ad565e1ed4e7e251805becf9d45630bd5c04ac0f"
+    },
+    {
+      "source": "multi_gpu_scheduler/deploy/vast/IMAGE_VALIDATION.md",
+      "destination": "multi_gpu_scheduler/deploy/vast/IMAGE_VALIDATION.md",
+      "sha256": "bee8ce849bf13be07e7a2b074615d13bedc3603fe2b556795b5bda6aa2009dc8"
+    },
+    {
+      "source": "multi_gpu_scheduler/deploy/vast/README.md",
+      "destination": "multi_gpu_scheduler/deploy/vast/README.md",
+      "sha256": "e7ad80694fc82913f749b897a714e0699dab56efd9162ae4a741360e75e6080f"
+    },
+    {
+      "source": "multi_gpu_scheduler/deploy/vast/check.py",
+      "destination": "multi_gpu_scheduler/deploy/vast/check.py",
+      "sha256": "776abebb173ba90b0babd6f33e87260d1e0b8c8258e4278bf82682e963d21a0c"
+    },
+    {
+      "source": "multi_gpu_scheduler/deploy/vast/entrypoint.py",
+      "destination": "multi_gpu_scheduler/deploy/vast/entrypoint.py",
+      "sha256": "0721aeef6d773e8df9ffe58443cbc63e4f4b22358a9edf30af254704f6869558"
+    },
+    {
+      "source": "multi_gpu_scheduler/deploy/vast/test_image.py",
+      "destination": "multi_gpu_scheduler/deploy/vast/test_image.py",
+      "sha256": "6d70daefbfe50bd58eaa05fda30d0af3c16384d2abb553c4c4610ef08eacf6a1"
+    },
+    {
+      "source": "multi_gpu_scheduler/examples/live_smoke.json",
+      "destination": "multi_gpu_scheduler/examples/live_smoke.json",
+      "sha256": "5267185b6cb8ee3b7e270f797d4ecda41c1457b5a374f5beeb52fdbeccfc9825"
+    },
+    {
+      "source": "multi_gpu_scheduler/examples/smoke_protein.yaml",
+      "destination": "multi_gpu_scheduler/examples/smoke_protein.yaml",
+      "sha256": "5852a51f0e96a90305581ffd131c6ac82b59490df061fa1ca416b2e61c4349ea"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/__init__.py",
+      "destination": "multi_gpu_scheduler/experiments/__init__.py",
+      "sha256": "a57f69ebaed151701a0345f8b672363423057e6b91b3365a97ca852de7d8967d"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/benchmark.py",
+      "destination": "multi_gpu_scheduler/experiments/benchmark.py",
+      "sha256": "0adb35591e5e746b879314a2fd24cdbf3a7336686191e2d9c13ae1aeae002496"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/campaign.py",
+      "destination": "multi_gpu_scheduler/experiments/campaign.py",
+      "sha256": "a12bfadc6198c890c12c41d7b42622dc8b32723b46f78c0f6d4577ccc4903cc2"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/compare_live.py",
+      "destination": "multi_gpu_scheduler/experiments/compare_live.py",
+      "sha256": "e566b992a4c1a6aacfb304fef2823466f265783a6581570aaf2abcd30a1ccefe"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/crossfit_trace.py",
+      "destination": "multi_gpu_scheduler/experiments/crossfit_trace.py",
+      "sha256": "0d1d77e375a6949c9ae0e330814ada67b9d31c4e4616148925f8d8d570ced57c"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/live_scheduler.py",
+      "destination": "multi_gpu_scheduler/experiments/live_scheduler.py",
+      "sha256": "8626ff004d0b0df150f037f7bb0f8a956657cae0919d7cdf6d00886e10451481"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/local_scheduling_shakedown.py",
+      "destination": "multi_gpu_scheduler/experiments/local_scheduling_shakedown.py",
+      "sha256": "b8f3b42a1a851aeeb91664145912babffeb8f6ce4bcfb40394e2108d3a9ad3b4"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/prepare_simulation.py",
+      "destination": "multi_gpu_scheduler/experiments/prepare_simulation.py",
+      "sha256": "ed3de063072061f51cf6d9064785d5878ae7f7f3bd5c46c4015d7bf0afd93983"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/profile_job.py",
+      "destination": "multi_gpu_scheduler/experiments/profile_job.py",
+      "sha256": "4559b26e7e83e401653f066297d75534a41a1cc3a67682f40ed63d7169872221"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/profiles_to_csv.py",
+      "destination": "multi_gpu_scheduler/experiments/profiles_to_csv.py",
+      "sha256": "7e5558c68267b56f5d954e5d6e7207ed591699241d373a3137fe546fe07089d8"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/requirements.txt",
+      "destination": "multi_gpu_scheduler/experiments/requirements.txt",
+      "sha256": "09438b5281a4bc1e1e97a4287a75933b279137dd2934cb30a5bf98567a3f4dff"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/scheduler_simulation.py",
+      "destination": "multi_gpu_scheduler/experiments/scheduler_simulation.py",
+      "sha256": "92a049a94b9592ed747d669f65b9cb30ea63c3980ff4ad42187acb74f7feeba2"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/train_predictor.py",
+      "destination": "multi_gpu_scheduler/experiments/train_predictor.py",
+      "sha256": "10e41212dfd86d4043c08e2b86fe43d54f5f6066764b304a9b52d6758d59bdae"
+    },
+    {
+      "source": "multi_gpu_scheduler/experiments/vm_handoff.py",
+      "destination": "multi_gpu_scheduler/experiments/vm_handoff.py",
+      "sha256": "541136eda682b330cd521bd7a5326ec1b70a26f0300367ccf31f2b10750e8a0d"
+    },
+    {
+      "source": "multi_gpu_scheduler/pyproject.toml",
+      "destination": "multi_gpu_scheduler/pyproject.toml",
+      "sha256": "06febea576dfe3ca23f8b7b9203d07c411abaff8d86d5b9a61a0f452bde86111"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/.gitkeep",
+      "destination": "multi_gpu_scheduler/results/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "multi_gpu_scheduler/runtime-constraints.txt",
+      "destination": "multi_gpu_scheduler/runtime-constraints.txt",
+      "sha256": "b8ccd4bf2aaa282c70602df2a08acde5fb5ea16b79ea3eabe0acfcf6e146baf7"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/__init__.py",
+      "destination": "multi_gpu_scheduler/scheduling/__init__.py",
+      "sha256": "9e6434c76890ee458e3a15c0384ad57254865a3b229976a70d8392fb3ae4c3b3"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/features.py",
+      "destination": "multi_gpu_scheduler/scheduling/features.py",
+      "sha256": "f45aece34c811eb19367dd1fa1937eab05fd87c8ba5663127c3b1eaf7596c272"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/live.py",
+      "destination": "multi_gpu_scheduler/scheduling/live.py",
+      "sha256": "12a4c669dc3ffad93e3b042dc972a2c0805e1771cd5afb95cabc5914a324eaa8"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/live_store.py",
+      "destination": "multi_gpu_scheduler/scheduling/live_store.py",
+      "sha256": "d7e399bcb3763bf4cb12168f0e17dcdd6f8f8a5c39f0868958f1132867bfac63"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/live_worker.py",
+      "destination": "multi_gpu_scheduler/scheduling/live_worker.py",
+      "sha256": "2edc4f6eb2ef6016c2a8ab71d56edd37c27b62fcb7efd9fdc9b55938c6d10973"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/models.py",
+      "destination": "multi_gpu_scheduler/scheduling/models.py",
+      "sha256": "02cc84aa12bd693bd51e5212c6f758dd04cebbabfd263dd05ac98a676338312a"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/policies.py",
+      "destination": "multi_gpu_scheduler/scheduling/policies.py",
+      "sha256": "46ce7b4f2957fdc8424bc04abc7589eeb0db01ae4e92398163b9a9dc716b76aa"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/predictor.py",
+      "destination": "multi_gpu_scheduler/scheduling/predictor.py",
+      "sha256": "f1728ed02dec68076f3ed043cf8a2d878d72c715c4dab8182a0b2b7f3c465014"
+    },
+    {
+      "source": "multi_gpu_scheduler/scheduling/simulator.py",
+      "destination": "multi_gpu_scheduler/scheduling/simulator.py",
+      "sha256": "8793960ffea00a1b2c1c9463a1dc98f67fa9517340b96d9f54e70a17ca3bead5"
+    },
+    {
+      "source": "multi_gpu_scheduler/tests/test_crossfit_trace.py",
+      "destination": "multi_gpu_scheduler/tests/test_crossfit_trace.py",
+      "sha256": "ba45423d52cf2dd0a9b49c773c834830c0cb293337cd5df468b1e6ddd288308c"
+    },
+    {
+      "source": "multi_gpu_scheduler/tests/test_experiment_workflow.py",
+      "destination": "multi_gpu_scheduler/tests/test_experiment_workflow.py",
+      "sha256": "3a8ecb88fc727d171f8d112f3cf2019d7e3cb9d8262deffd0e2186a67a8e6af8"
+    },
+    {
+      "source": "multi_gpu_scheduler/tests/test_features.py",
+      "destination": "multi_gpu_scheduler/tests/test_features.py",
+      "sha256": "50180d3e01e241489a12aa03358f102242db23f6e70016939cde3efc6f35050f"
+    },
+    {
+      "source": "multi_gpu_scheduler/tests/test_live.py",
+      "destination": "multi_gpu_scheduler/tests/test_live.py",
+      "sha256": "697b55d16ce2a2a9d5d2ecdefda997250b06f4652e2bced649cc68e6bb001886"
+    },
+    {
+      "source": "multi_gpu_scheduler/tests/test_predictor.py",
+      "destination": "multi_gpu_scheduler/tests/test_predictor.py",
+      "sha256": "40c3493ab49513c24a36c367fd26343e949d8a5826397078d4b199576d143b34"
+    },
+    {
+      "source": "multi_gpu_scheduler/tests/test_prepare_simulation.py",
+      "destination": "multi_gpu_scheduler/tests/test_prepare_simulation.py",
+      "sha256": "582fcdaea20d6c95bebe66abb18f80fc0da7eb090bbb62e9a81091967ad3c3b5"
+    },
+    {
+      "source": "multi_gpu_scheduler/tests/test_scheduler.py",
+      "destination": "multi_gpu_scheduler/tests/test_scheduler.py",
+      "sha256": "6e238b7597bf62fb561f041e433483e0df193264bf8991f7814c53a3c3eac579"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/.gitkeep",
+      "destination": "multi_gpu_scheduler/workloads/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "paper/generate_results.py",
+      "destination": "artifacts/generate_results.py",
+      "sha256": "1fda0a1a767bbbae8858f6adcc2582a0833805db21dce677ea78849fbf930372"
+    },
+    {
+      "source": "paper/requirements.txt",
+      "destination": "artifacts/requirements.txt",
+      "sha256": "edd451612ea0c1ec83c666ed9007c25409ae82939eec057651842876f2b29ad3"
+    },
+    {
+      "source": "paper/results/measurements.json",
+      "destination": "artifacts/results/measurements.json",
+      "sha256": "a231ad37fee608d7880e299da5938bc8709c2befa5f636315043717291276173"
+    },
+    {
+      "source": "paper/figures/measured_predictor.png",
+      "destination": "artifacts/figures/measured_predictor.png",
+      "sha256": "894603d070f617357ff957b001ed9ee695d53897fd5f8701430faa42453964bd"
+    },
+    {
+      "source": "paper/figures/measured_tradeoffs.png",
+      "destination": "artifacts/figures/measured_tradeoffs.png",
+      "sha256": "3ec28d285fa61ed22dfb603d4fef295172f4414a9c8822747801b4f3e90703c2"
+    },
+    {
+      "source": "paper/figures/measured_scaling.pdf",
+      "destination": "artifacts/figures/measured_scaling.pdf",
+      "sha256": "cffe6b37795f828fd2ba483d1559f1c66a9d2936dabce33dacafd29624c2fe0e"
+    },
+    {
+      "source": "paper/figures/software_overview.tex",
+      "destination": "artifacts/figures/software_overview.tex",
+      "sha256": "a590709a44ddf166f5868b7c04c16e485a84bde325dcfd71750e6d586cae1c07"
+    },
+    {
+      "source": "paper/figures/local_execution.tex",
+      "destination": "artifacts/figures/local_execution.tex",
+      "sha256": "3b0d19923c5e246c15fff4c96a57076b5bc469cd1e8686334c8e87bbf0424282"
+    },
+    {
+      "source": "paper/figures/measured_tradeoffs.svg",
+      "destination": "artifacts/figures/measured_tradeoffs.svg",
+      "sha256": "49a6b78ed90b55eb51c254e9255dd0224bb3869e5683ed9031405f1435be661b"
+    },
+    {
+      "source": "paper/figures/measured_scaling.png",
+      "destination": "artifacts/figures/measured_scaling.png",
+      "sha256": "c6ea8ccd656e6e56c619bf5fd6b566d23522d52866ffe759195b67cc639db788"
+    },
+    {
+      "source": "paper/figures/measured_predictor.svg",
+      "destination": "artifacts/figures/measured_predictor.svg",
+      "sha256": "503149c536dea6f2a0042349e9a794274b1b59f5b1dd76a2034843eda1532388"
+    },
+    {
+      "source": "paper/figures/measured_scaling.svg",
+      "destination": "artifacts/figures/measured_scaling.svg",
+      "sha256": "dee54d8857513bf70a3eb59771e827b42ab20bd5bab4b0d7a3c2f4c5988b4ade"
+    },
+    {
+      "source": "paper/figures/aws_architecture.tex",
+      "destination": "artifacts/figures/aws_architecture.tex",
+      "sha256": "aba7a788eaf8181ac42b2a5e7061624fd0ccfd7b0138b955079407f45736a22d"
+    },
+    {
+      "source": "paper/figures/measured_tradeoffs.pdf",
+      "destination": "artifacts/figures/measured_tradeoffs.pdf",
+      "sha256": "553e9b69105aa00a4db3e69c685952102fc99c2a252d39a01c53d50aaa83261f"
+    },
+    {
+      "source": "paper/figures/measured_predictor.pdf",
+      "destination": "artifacts/figures/measured_predictor.pdf",
+      "sha256": "62e4fc9e1e8aa7c467b222d10cfadf99dbc69eb6643f37817dddbc5f1b7dd113"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/comparison-backup-audit.json",
+      "destination": "artifacts/evidence/comparison-backup-audit.json",
+      "sha256": "a88eaaf6ab3f478cd934a2ee627df16f8d269f9d11b6e38e822810918abfc363"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/recovery-backup-audit.json",
+      "destination": "artifacts/evidence/recovery-backup-audit.json",
+      "sha256": "2fbb531f9946bcaff5e31ecf39b861fc1678eaa7cc3f76531255009d254308de"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-4-comparison/report/summary.json",
+      "destination": "artifacts/evidence/remote-results/phase-4-comparison/report/summary.json",
+      "sha256": "60c43ff1b42f92d44ea211b7fd2c944a82f3a159b85a716d2a5bb9c8a3c71139"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-4-comparison/report/trials.csv",
+      "destination": "artifacts/evidence/remote-results/phase-4-comparison/report/trials.csv",
+      "sha256": "84cd0a64028eb7287323852f0ac9eb887eec051a5e7a2f66f5aeada2eb9f193b"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-4-comparison/report/owners.csv",
+      "destination": "artifacts/evidence/remote-results/phase-4-comparison/report/owners.csv",
+      "sha256": "6a5b4fd27f20a9ff6a004b305a17757457f361412bf196d8eb27bbba1497dd0a"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-4-comparison/validation.json",
+      "destination": "artifacts/evidence/remote-results/phase-4-comparison/validation.json",
+      "sha256": "8a5c2a4532d50a40b8d83b338df29c442854cdf2df5f8c37c5e8a0ea74351fb3"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-4-comparison/campaign.json",
+      "destination": "artifacts/evidence/remote-results/phase-4-comparison/campaign.json",
+      "sha256": "538d7b6ccfc564219a606c1c309b0d574e863cdeddda574a35f62caf903a9395"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-2-profiling/profiles.csv",
+      "destination": "artifacts/evidence/remote-results/phase-2-profiling/profiles.csv",
+      "sha256": "6e202c74837bee7aa3600b3fdb82cfa76a18df00e8d3cd01a5585e3ab48a2065"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-2-profiling/predictor-report.json",
+      "destination": "artifacts/evidence/remote-results/phase-2-profiling/predictor-report.json",
+      "sha256": "58982a97883aca6cd39ebce141f45d2baad6d33db6d8d71b2b737cceb3329324"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-2-profiling/predictor-plots/held-out-predictions.csv",
+      "destination": "artifacts/evidence/remote-results/phase-2-profiling/predictor-plots/held-out-predictions.csv",
+      "sha256": "e70703e5902882a27b21c1a488c0c18d660786aa5fb3570585f546d0dd28621f"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-2-profiling/validation.json",
+      "destination": "artifacts/evidence/remote-results/phase-2-profiling/validation.json",
+      "sha256": "8301fae55ddee29a524d5b98a51b6bd20bc96499c06e53eed8bfacc985d79416"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-5-recovery-r3/phase.json",
+      "destination": "artifacts/evidence/remote-results/phase-5-recovery-r3/phase.json",
+      "sha256": "5a0e4f9a5ee00d7aa8cf924191a6d12dfbe28348e9c4e137195d8c3a1551331f"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/vast-58269544/remote-results/phase-5-recovery-r3/events.json",
+      "destination": "artifacts/evidence/remote-results/phase-5-recovery-r3/events.json",
+      "sha256": "1a46f8b184913abffa73591689f9a10a25bc3f1913bdd253f11b51302534a10a"
+    },
+    {
+      "source": "multi_gpu_scheduler/results/clean-install-20261030/validation.json",
+      "destination": "artifacts/evidence/clean-install/validation.json",
+      "sha256": "a0d671ac4a85784623b51592defac93cfca37bdffd00b551a049bc9146358c0b"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/catalog.json",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/catalog.json",
+      "sha256": "abf2fd79cf81b5d1c44ecedfde453b244b73076cedcd62df3a7943c2b2f05c14"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/frozen.json",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/frozen.json",
+      "sha256": "186ffa519d122671429ccfb94f71af1c962577477e2d23daecd535f4367acf40"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/104m_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/104m_1.yaml",
+      "sha256": "74e3a149c4767cef98f4896dddf8edc59b242336fff9b34215180e8d18760a68"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10ak_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10ak_1.yaml",
+      "sha256": "0616c66903c838ce9449a6ee3527c447af2b8d557032ed31e80b297f5c67c8b6"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10br_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10br_1.yaml",
+      "sha256": "8cdf01267e513913090b8a0619e08a8a710f958d31ef27c55e266a9d01110584"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10ef_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10ef_1.yaml",
+      "sha256": "7a80f395c338e42d0f4d4cdaf489d71a2f9a7385ff79fdf128aaec5731a46060"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10kt_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10kt_1.yaml",
+      "sha256": "4519b0646afc10ac48a88b00582f93ff4c5cbfec92088eae83c855e92ba0fc52"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10mn_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10mn_1.yaml",
+      "sha256": "e6a03d4f78cef756458bbdf0da8bd1c0faa160569b018adb551ab3294cdf6686"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10oo_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10oo_1.yaml",
+      "sha256": "702d395747ed54dee37a36faf55c0cb58504bb452c259f2801624e5e780a63cc"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10ot_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10ot_1.yaml",
+      "sha256": "ede595d8fefda76022a5ebe213ad5c24f9c64d6cd1629f3c0431f1c43216910c"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10pp_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10pp_1.yaml",
+      "sha256": "106d26eedd60a5c01430c4ebe61d68fb79c1f3b344a6a20be6f8487113ec742c"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10qs_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10qs_1.yaml",
+      "sha256": "380e61dbe38c96c93683c09eeb9b70e17508ee7703760626c1e477339702ce15"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10rc_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10rc_1.yaml",
+      "sha256": "4a6849e50ef6a38bfbfae319c0571aed53bf72d2c872268d9b67cc5e15483fff"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/10zg_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/10zg_1.yaml",
+      "sha256": "648e082728393e8127d319ccfb1b901b7c87094ee5f2c85ea84f5c86da9e8cc3"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11af_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11af_1.yaml",
+      "sha256": "c1ba2b60ecfe476c0743e39629d8882f20c0537b9db0dc73c8a9eff98219dd4c"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11bd_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11bd_1.yaml",
+      "sha256": "4bbb2e1c04ce7612723740697327821833ee6eaa36b8c32058047368a3017829"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11br_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11br_1.yaml",
+      "sha256": "d8997d518a949df73262dfb0053f0aa4689be8611670dd2912824c13214d229f"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11cf_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11cf_1.yaml",
+      "sha256": "c2bc6f4a884f87a9950c26870646d7dd5e0299a8a886a2d288f7e522d14db492"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11eu_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11eu_1.yaml",
+      "sha256": "0d97174b624e1365e77c240f18f94dcddcf1a9b54f67c2401b50312dcf35f62a"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11kk_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11kk_1.yaml",
+      "sha256": "b174712d3fb2bf6787e4866d76fce6d07443f58c1b68e1d7c3a6f7005b15486a"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11nx_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11nx_1.yaml",
+      "sha256": "1038f2664c0069343ab8fb02c17fb77a42283fc97a416e64a0937c30103adcd4"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11oa_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11oa_1.yaml",
+      "sha256": "fe38261d0a143f5b7d07c704b6ff041b61baf9f977b88fd019c9e88aa3163af8"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11zl_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11zl_1.yaml",
+      "sha256": "519f3744b3d10c1987813d02055ce29c6b6f72fc08bcd0257e60cb1069387c70"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/11zt_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/11zt_1.yaml",
+      "sha256": "ef47d32f1c74eafcebd668d5cb6dd926a5e90330c503c695e50f1bc12c7f7c51"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/12as_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/12as_1.yaml",
+      "sha256": "7867a792d114baeed155d4018ff11bbd8c635297b05c6298043b0ac3e28bf4fe"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/12av_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/12av_1.yaml",
+      "sha256": "569acef745611bb648021e9931831557a86382e7822e88f763790b04b5950578"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/12ew_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/12ew_1.yaml",
+      "sha256": "03cf03ea99d7590e3a19a61be0e65d38c1ea7bdafa1ffe0d849fab91b81f25e3"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/12uw_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/12uw_1.yaml",
+      "sha256": "01b6c160159fbb32c01f209b8d668856cf27010b27830a497413db442cf395d9"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/12vd_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/12vd_1.yaml",
+      "sha256": "9844d456f05f6ef77c35bf8dc465327839ae8c09bbd108ca879950589eeb752d"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/12yf_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/12yf_1.yaml",
+      "sha256": "f7c08d6b4fe243a22330a7edb30a4cbab4d1ba02ed6e2742682131adc25e93e2"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/13df_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/13df_1.yaml",
+      "sha256": "4b833b58772af324ee9114e8dc45454458af2b5d2da96adefddba1126f6d8399"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/13hq_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/13hq_1.yaml",
+      "sha256": "5755ecf0b7b6ccd015456f1dd644f36124c291a8b2a92b558f6e1e003df1bcc3"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/13lz_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/13lz_1.yaml",
+      "sha256": "00d78c30e062f64481fc3a0e0a027aac896f5628a85312119aed349b5b378627"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/13qx_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/13qx_1.yaml",
+      "sha256": "46aeda08a672263f401cdc1c798aeabddd79e522db0bf2b38c30c7c51d4639a4"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/13rm_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/13rm_1.yaml",
+      "sha256": "d4b88d3c0d9a145716ade19187c97964a6052dc7f3b5df331ccbb886a0eda945"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/14yt_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/14yt_1.yaml",
+      "sha256": "cbaaa7add8faf736d0f531525500af259292ec0ac6c7a60ec5a9785f375bd964"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/181l_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/181l_1.yaml",
+      "sha256": "a4657a83697a6ac728e9d23af0303d1859580ec453208ca0e8fa4e48d8d681da"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1a31_3.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1a31_3.yaml",
+      "sha256": "1cb087710c838d69c89553081fac8f1beebc68796abfc0359f211a53011730b9"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1a3f_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1a3f_1.yaml",
+      "sha256": "f5f428e54db5e977835193e609b199e3b4b1bf6d203f6ebdf51b7de943eec790"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1a6r_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1a6r_1.yaml",
+      "sha256": "b0a7d68b3cc6948168ba42b633e71cd3afadf4d33d59f99be72869ce4e7fdf0c"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1a79_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1a79_1.yaml",
+      "sha256": "0b02032ea24cd08b2b8db34bf3c5173f046f37b1e493aec1fd407aeff6cb55e7"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1ab5_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1ab5_1.yaml",
+      "sha256": "61a27380fcf52731f5cb8aea3c4ca73a91bd6a92a33183563f28508350f4a9c6"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1afa_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1afa_1.yaml",
+      "sha256": "ca6553ae8961d1da81854c316a1816f873ad75f2fb91f02fb83405dcab60b0af"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1afu_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1afu_1.yaml",
+      "sha256": "10873f49162acadc6b9a75209bf27bf7761e24433d420f9bd4505321091bd4d6"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1agq_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1agq_1.yaml",
+      "sha256": "64ece11fde74a22577312a518fdefe11ecb1eee640fa77e71b20b62eda43eaa6"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1ah6_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1ah6_1.yaml",
+      "sha256": "83d6492822792fffb5038d3522a772f823749d54c3656b60d0fdf480f7c2391a"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1ajw_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1ajw_1.yaml",
+      "sha256": "d74bbfa5a6f842bec3a8e552d303451ca63f9b39fb84a79e6812b9ccc2e2d3b1"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1akk_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1akk_1.yaml",
+      "sha256": "034e976ddd5331caef726effc608979a544b82f6ab89d6dfd78371a98e777db0"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1akn_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1akn_1.yaml",
+      "sha256": "292b2e615773f7cb55093758a22497617f37f83fd4c59814bc5279db61d74df0"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1aky_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1aky_1.yaml",
+      "sha256": "c1ba12ebd5dcde2ef6ab4e75d60a907abe39d7ce8d16b18d11715a3458ec5ef2"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1aor_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1aor_1.yaml",
+      "sha256": "8e285e19349ae4d26d6d12d9b7067fdb753a0d976d70019174cc2dc566847e45"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1btc_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1btc_1.yaml",
+      "sha256": "b1433d3d5907fe0b7fc1fd543aa91b0bec326f7d5a5fcbeb897a377da9c95518"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1bwf_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1bwf_1.yaml",
+      "sha256": "69a05176f2417e35ad678e4956ce12a89bf97cf391d205e03de28d66ddbed005"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1ck7_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1ck7_1.yaml",
+      "sha256": "12389b9a11b3e6e8763aa06eed714601ddc3b83db6ab5e5573525eca1942b976"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1cqz_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1cqz_1.yaml",
+      "sha256": "85e608387d426430bd1d01dcf0f86e2ac95153b72c1822adfc6852968665c13c"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1cy1_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1cy1_1.yaml",
+      "sha256": "a83f41558de96c6bce2f4afc7cb47333c5dd0fecb67b97be75ac0338e3b79da0"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1d0h_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1d0h_1.yaml",
+      "sha256": "c85159420b7147aec224799b935d8f41d9c833d5c85b94f9f0c97ea7ff25f0cd"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1dfa_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1dfa_1.yaml",
+      "sha256": "5618b779c89f737c966526699d445f90f1a87ed4f3c4bd3c3bc8e83e2407df33"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1dnp_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1dnp_1.yaml",
+      "sha256": "0f51de2c590dada98ba76c60868abca186b81129dab367271f342dd6f38d620d"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1dpi_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1dpi_1.yaml",
+      "sha256": "1742dada15017b6dc528adf037c522f761793625be87652273be008e8c00454a"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1dt6_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1dt6_1.yaml",
+      "sha256": "a05f15cc8e0a2d7a84f7dfcfa9774db60047e3949fb9ca6df43dad41096efd4f"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/inputs/1e7g_1.yaml",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/inputs/1e7g_1.yaml",
+      "sha256": "692b4a8926532aa807ecaaf6e6ded4954984e58bcc27ae74fd959279b2482022"
+    },
+    {
+      "source": "multi_gpu_scheduler/workloads/public-v1-heme-ccd/prepared.json",
+      "destination": "artifacts/workloads/public-v1-heme-ccd/prepared.json",
+      "sha256": "970cdb9df1ec0662b3c9574386f9da2361f9e1b2a385a39a6f92f6588d7d0b05"
+    }
+  ],
+  "staged_workload_archive": {
+    "path": "artifacts/release-assets/public-v1-heme-ccd.tar.gz",
+    "bytes": 90204411,
+    "sha256": "2db3038f282138c872c7065a82761fae9726a9f127b1d7a1b5ff6a84a554311c"
+  }
+}

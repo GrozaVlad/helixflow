@@ -1,0 +1,6 @@
+*
+!aws_distributed/
+!aws_distributed/shared/
+!aws_distributed/shared/**
+!aws_distributed/services/
+!aws_distributed/services/**

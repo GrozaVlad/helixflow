@@ -1,0 +1,31 @@
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+ box/.style={draw=blue!55!black,fill=blue!4,rounded corners=2pt,align=center,
+ text width=4.1cm,minimum height=1.2cm,font=\fontsize{9}{11}\selectfont},
+ compute/.style={box,draw=orange!70!black,fill=orange!6},
+ store/.style={box,draw=teal!60!black,fill=teal!5},
+ flow/.style={-{Latex[length=2mm]},thick,draw=black!65}]
+\node[box] (api) at (0,0) {Client / HTTP ALB\\FastAPI container\\ECS/Fargate};
+\node[box] (queue) at (5,0) {SQS submission queue + DLQ\\Lambda dispatcher};
+\node[box] (sfn) at (10,0) {Step Functions\\Stage order and fallback};
+\draw[flow] (api)--(queue); \draw[flow] (queue)--(sfn);
+\node[compute] (cpu) at (10,-2.1) {AWS Batch CPU queue / EC2\\MSA preparation container};
+\node[compute] (spot) at (5,-2.1) {AWS Batch GPU Spot queue\\Boltz container on GPU EC2};
+\node[compute] (od) at (0,-2.1) {GPU On-Demand queue / EC2\\Fallback Boltz container};
+\draw[flow] (sfn)--(cpu); \draw[flow] (cpu)--(spot);
+\draw[flow] (spot)-- node[above,font=\fontsize{8}{10}\selectfont] {failure} (od);
+\node[box] (final) at (5,-4.2) {Finalizer Lambda\\Check files and hashes};
+\node[box] at (10,-4.2) {Optional scheduler Lambda\\Batch fair-share ID and priority};
+\node[box] at (0,-4.2) {Batch events / EventBridge\\Reconciler Lambda: job state updates};
+\draw[flow] (spot)--(final);
+\draw[flow] (od.south) -- ++(0,-.3) -| (final.north west);
+\node[store] at (0,-6.3) {S3 scientific assets\\Inputs, MSAs, outputs\\Structures for viewing};
+\node[store] at (5,-6.3) {DynamoDB\\Jobs, state, file references};
+\node[store] at (10,-6.3) {ECR container repositories\\API, MSA, Boltz images};
+\node[box] at (0,-8.4) {CloudWatch logs\\DLQ alarm / SNS\\Budget alert};
+\node[box] at (5,-8.4) {Terraform + CI checks\\Cloud execution\\not validated};
+\node[store,dashed] at (10,-8.4) {Planned: FSx for Lustre\\Shared MSA database path\\Not provisioned by Terraform};
+\node[font=\fontsize{9}{11}\selectfont,align=center] at (5,-10)
+ {Lower rows: shared storage, image distribution, and operations (connections omitted for clarity).};
+\end{tikzpicture}%
+}

@@ -1,0 +1,1885 @@
+{
+  "schema_version": "1.0",
+  "seed": 42,
+  "records": [
+    {
+      "job_id": "181l_1",
+      "pdb_id": "181L",
+      "entity_id": "1",
+      "sequence": "MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAAAINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDAYKNL",
+      "families": [
+        "PF00959"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": {
+        "ccd": "HED",
+        "smiles": "C(CSSCCO)O",
+        "heavy_atoms": 8,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/HED"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/181L/1",
+      "structure_doi": "https://doi.org/10.2210/pdb181l/pdb",
+      "retrieved_at": "2026-10-21T05:17:38.296973+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1a3f_1",
+      "pdb_id": "1A3F",
+      "entity_id": "1",
+      "sequence": "NLYQFKNMIKCTVPSRSWWDFADYGCYCGRGGSGTPVDDLDRCCQVHDNCYNEAEKISGCWPYFKTYSYECSQGTLTCKGDNNACAASVCDCDRLAAICFAGAPYNDNNYNIDLKARCQ",
+      "families": [
+        "PF00068"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1A3F/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1a3f/pdb",
+      "retrieved_at": "2026-10-21T05:17:39.822149+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1afa_1",
+      "pdb_id": "1AFA",
+      "entity_id": "1",
+      "sequence": "AIEVKLANMEAEINTLKSKLELTNKLHAFSMGKKSGKKFFVTNHERMPFSKVKALCSELRGTVAIPRNAEENKAIQEVAKTSAFLGITDEVTEGQFMYVTGGRLTYSNWKKDQPDDWYGHGLGGGEDCVTIVDNGLWNDISCQASHTAVCEFPA",
+      "families": [
+        "PF00059"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": {
+        "ccd": "MBG",
+        "smiles": "CO[C@H]1[C@@H]([C@H]([C@H]([C@H](O1)CO)O)O)O",
+        "heavy_atoms": 13,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/MBG"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AFA/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1afa/pdb",
+      "retrieved_at": "2026-10-21T05:17:43.730021+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1aky_1",
+      "pdb_id": "1AKY",
+      "entity_id": "1",
+      "sequence": "SSESIRMVLIGPPGAGKGTQAPNLQERFHAAHLATGDMLRSQIAKGTQLGLEAKKIMDQGGLVSDDIMVNMIKDELTNNPACKNGFILDGFPRTIPQAEKLDQMLKEQGTPLEKAIELKVDDELLVARITGRLIHPASGRSYHKIFNPPKEDMKDDVTGEALVQRSDDNADALKKRLAAYHAQTEPIVDFYKKTGIWAGVDASQPPATVWADILNKLGKN",
+      "families": [
+        "PF00406",
+        "PF05191"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": {
+        "ccd": "AP5",
+        "smiles": "c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)O[P@](=O)(O)OP(=O)(O)O[P@@](=O)(O)O[P@@](=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)n5cnc6c5ncnc6N)O)O)O)O)N",
+        "heavy_atoms": 57,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/AP5"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AKY/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1aky/pdb",
+      "retrieved_at": "2026-10-21T05:17:49.062467+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10br_1",
+      "pdb_id": "10BR",
+      "entity_id": "1",
+      "sequence": "GPLGSIESAWLGISFYPLKTRDSEVLKSLGVESNDVSAAIIASLYPGSPAVKSGLRAGDIIMKVNGVSMSVFQDVTSYISDFYAGEKVNVEILRGNVKKNIEIVLAVRPKDKELSSSKMLPGFVVYPLVEDIKAQLNLRNWIKGVVVDYIDKNLASNIKMKSGDVILSVNSKSVSNLREFYDALEVGKNTYKILRGNDSFKITF",
+      "families": [
+        "PF13180"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10BR/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10br/pdb",
+      "retrieved_at": "2026-10-21T05:17:52.399229+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1a79_1",
+      "pdb_id": "1A79",
+      "entity_id": "1",
+      "sequence": "KITGLLDGDRVIVFDKNGISKLSARHYGNVEGNFLSLSLVEALYLINLGWLEVKYKDNKPLSFEELYEYARNVEERLCLKYLVYKDLRTRGYIVKTGLKYGADFRLYERGANIDKEHSVYLVKVFPEDSSFLLSELTGFVRVAHSVRKKLLIAIVDADGDIVYYNMTYVKP",
+      "families": [
+        "PF01974",
+        "PF02778"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1A79/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1a79/pdb",
+      "retrieved_at": "2026-10-21T05:17:57.614850+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "104m_1",
+      "pdb_id": "104M",
+      "entity_id": "1",
+      "sequence": "VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG",
+      "families": [
+        "PF00042"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": {
+        "ccd": "HEM",
+        "smiles": "Cc1c2n3c(c1CCC(=O)O)C=C4C(=C(C5=[N]4[Fe]36[N]7=C(C=C8N6C(=C5)C(=C8C)C=C)C(=C(C7=C2)C)C=C)C)CCC(=O)O",
+        "heavy_atoms": 43,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/HEM"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/104M/1",
+      "structure_doi": "https://doi.org/10.2210/pdb104m/pdb",
+      "retrieved_at": "2026-10-21T05:18:04.679882+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1ajw_1",
+      "pdb_id": "1AJW",
+      "entity_id": "1",
+      "sequence": "AVSADPNVPNVVVTRLTLVCSTAPGPLELDLTGDLESFKKQSFVLKEGVEYRIKISFRVNREIVSGMKYIQHTYRKGVKIDKTDYMVGSYGPRAEEYEFLTPMEEAPKGMLARGSYNIKSRFTDDDRTDHLSWEWNLTIKKEWKD",
+      "families": [
+        "PF02115"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AJW/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1ajw/pdb",
+      "retrieved_at": "2026-10-21T05:18:06.217512+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1afu_1",
+      "pdb_id": "1AFU",
+      "entity_id": "1",
+      "sequence": "KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV",
+      "families": [
+        "PF00074"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AFU/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1afu/pdb",
+      "retrieved_at": "2026-10-21T05:18:08.474632+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11af_1",
+      "pdb_id": "11AF",
+      "entity_id": "1",
+      "sequence": "ARTKQTARKSTGGSGSSDEDVICDVCRSPDSEEGNDMVFCDKCNVCVHQACYGILKVPEGSWLCRSCVLGIYPQCVLCPKKGGALKTTKTGTKWAHVSCALWIPEVSIACPERMEPITKISHIPPSRWALVCNLCKLKTGACIQCSIKSCITAFHVTCAFEHGLEMKTILDEGDEVKFKSYCLKHSQNRQ",
+      "families": [
+        "PF00628",
+        "PF13832"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11AF/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11af/pdb",
+      "retrieved_at": "2026-10-21T05:18:12.400375+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1agq_1",
+      "pdb_id": "1AGQ",
+      "entity_id": "1",
+      "sequence": "MSPDKQAAALPRRERNRQAAAASPENSRGKGRRGQRGKNRGCVLTAIHLNVTDLGLGYETKEELIFRYCSGSCEAAETMYDKILKNLSRSRRLTSDKVGQACCRPVAFDDDLSFLDDSLVYHILRKHSAKRCGCI",
+      "families": [
+        "PF00019"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AGQ/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1agq/pdb",
+      "retrieved_at": "2026-10-21T05:18:14.894511+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10rc_1",
+      "pdb_id": "10RC",
+      "entity_id": "1",
+      "sequence": "SGDTPDVFISYRRNSGSQLASLLKVHLQLHGFSVFIDVEKLEAGKFEDKLIQSVMGARNFVLVLSPGALDKCMQDHDCKDWVHKEIVTALSCGKNIVPIIDGFEWPEPQVLPEDMQAVLTFNGIKWSHEYQEATIEKIIRFLQ",
+      "families": [
+        "PF13676"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10RC/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10rc/pdb",
+      "retrieved_at": "2026-10-21T05:18:19.368172+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "12uw_1",
+      "pdb_id": "12UW",
+      "entity_id": "1",
+      "sequence": "GMTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGKEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLVREIRKHKEK",
+      "families": [
+        "PF00071"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": {
+        "ccd": "A1DEM",
+        "smiles": "Cn1cc(nc1)CN2[C@@H]3CC[C@H]2CN(C3)c4c5cnc(c(c5nc(n4)OC[C@@]67CCCN6C[C@@H](C7)F)F)c8cc(cc9c8c(c(cc9)F)C#C)O",
+        "heavy_atoms": 51,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1DEM"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/12UW/1",
+      "structure_doi": "https://doi.org/10.2210/pdb12uw/pdb",
+      "retrieved_at": "2026-10-21T05:18:23.192815+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11cf_1",
+      "pdb_id": "11CF",
+      "entity_id": "1",
+      "sequence": "PNSGSSTLNYLKSLEGKGWDFDGSFGWQCFDLVNVYWNHLYGHGLKGDYAKDIPYANNFNSEAKIYHNTPTFKAEPGDLVVFSGRFGGGYGHTAIVLNGNYDGNLQKFQSLDQNWNGGGERKQEVAHKVVHNYENDMIFIRPFKKA",
+      "families": [
+        "PF05257"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11CF/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11cf/pdb",
+      "retrieved_at": "2026-10-21T05:18:27.019509+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1ah6_1",
+      "pdb_id": "1AH6",
+      "entity_id": "1",
+      "sequence": "MASETFEFQAEITQLMSLIINTVYSNKEIFLRELISNASDALDKIRYKSLSDPKQLETEPDLFIRITPKPEQKVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNAGGSFTVTLDEVNERIGRGTILRLFLKDDQLEYLEEKRIKEVIKRHSEFVAYPIQLVVTKEVEKEVPIP",
+      "families": [
+        "PF02518"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AH6/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1ah6/pdb",
+      "retrieved_at": "2026-10-21T05:18:28.571963+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1ab5_1",
+      "pdb_id": "1AB5",
+      "entity_id": "1",
+      "sequence": "ELKFLVVDDNSTMRRITRNLLKELGFNNVEEAEDGVDALNKLQAGGYGFVISDWNMPNMDGLELLKTIRADGAMSALPVLMVTAEAKKENIIAAAQAGASGYVVKPFTAATLEEKLNKIFEKLGM",
+      "families": [
+        "PF00072"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AB5/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1ab5/pdb",
+      "retrieved_at": "2026-10-21T05:18:30.105659+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "13rm_1",
+      "pdb_id": "13RM",
+      "entity_id": "1",
+      "sequence": "SMVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFL",
+      "families": [
+        "PF01661"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": {
+        "ccd": "A1CXV",
+        "smiles": "CC(C)[C@H](CO)Nc1c2cc([nH]c2ncn1)c3ccns3",
+        "heavy_atoms": 21,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1CXV"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/13RM/1",
+      "structure_doi": "https://doi.org/10.2210/pdb13rm/pdb",
+      "retrieved_at": "2026-10-21T05:18:34.777533+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "13df_1",
+      "pdb_id": "13DF",
+      "entity_id": "1",
+      "sequence": "GPLGSPEFMEGQRWLPLEANPEVTNQFLKQLGLHPNWQFVDVYGMDPELLSMVPRPVCAVLLLFPITEKYEVFRTEEEEKIKSQGQDVTSSVYFMKQTISNACGTIGLIHAIANNKDKMHFESGSTLKKFLEESVSMSPEERARYLENYDAIRVTHETSAHEGQTEAPSIDEKVDLHFIALVHVDGHLYELDGRKPFPINHGETSDETLLEDAIEVCKKFMERDPDELRFNAIALSAA",
+      "families": [
+        "PF01088"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": {
+        "ccd": "A1DFE",
+        "smiles": "COc1cccc(c1)NC(=O)c2cccc(c2)NC(=O)CCl",
+        "heavy_atoms": 22,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1DFE"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/13DF/1",
+      "structure_doi": "https://doi.org/10.2210/pdb13df/pdb",
+      "retrieved_at": "2026-10-21T05:18:37.743428+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "13hq_1",
+      "pdb_id": "13HQ",
+      "entity_id": "1",
+      "sequence": "MHHHHHHQHQHENLYFQGSILPEAQVLQVYLLPVHNPPASAAARPVDWSLRIARPRTSLVLESPRIAVRPHGDEISVYQGARWSDPAPSLLRDRLMQAFQADGRVRGLSSDDSNLQADFELGGDLRAFQTEYPNGQASALIRYDARLVRTDDKRVVASRRFEVSQPVDGKKVAAVVSAFGKAGDTLSAQVLDWTLRQASAQPAVQP",
+      "families": [
+        "PF03886"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/13HQ/1",
+      "structure_doi": "https://doi.org/10.2210/pdb13hq/pdb",
+      "retrieved_at": "2026-10-21T05:18:39.290074+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1akk_1",
+      "pdb_id": "1AKK",
+      "entity_id": "1",
+      "sequence": "GDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFTYTDANKNKGITWKEETLMEYLENPKKYIPGTKMIFAGIKKKTEREDLIAYLKKATNE",
+      "families": [
+        "PF00034"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        100,
+        249
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AKK/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1akk/pdb",
+      "retrieved_at": "2026-10-21T05:18:41.763751+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "13lz_1",
+      "pdb_id": "13LZ",
+      "entity_id": "1",
+      "sequence": "GSGTMQTFLKGKRVGYWLSEKKIKKLNFQAFAELCRKRGMEVVQLNLSRPIEEQGPLDVIIHKLTDVILEADQNDSQSLELVHRFQEYIDAHPETIVLDPLPAIRTLLDRSKSYELIRKIEAYMEDDRICSPPFMELTSLCGDDTMRLLEKNGLTFPFICKTRVAHGTNSHEMAIVFNQEGLNAIQPPCVVQNFINHNAVLYKVFVVGESYTVVQRPSLKNFSAGTSDRESIFFNSHNVSKPESSSVLTELDKIEGVFERPSDEVIRELSRALRQALGVSLFGIDIIINNQTGQHAVIDINAFPGYEGVSEFFTDLLNHIATVLQGQSTAM",
+      "families": [
+        "PF05770",
+        "PF17927"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": {
+        "ccd": "A1DHL",
+        "smiles": "CCNc1c2c(c3ccccc3o2)ncn1",
+        "heavy_atoms": 16,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1DHL"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/13LZ/1",
+      "structure_doi": "https://doi.org/10.2210/pdb13lz/pdb",
+      "retrieved_at": "2026-10-21T05:18:49.119432+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "14yt_1",
+      "pdb_id": "14YT",
+      "entity_id": "1",
+      "sequence": "MTPPHNYLAVIKVVGIGGGGVNAVNRMIEQGLKGVEFIAINTDAQALLMSDADVKLDVGRDSTRGLGAGADPEVGRKAAEDAKDEIEELLRGADMVFVTAGEGGGTGTGGAPVVASIARKLGALTVGVVTRPFSFEGKRRSNQAENGIAALRESCDTLIVIPNDRLLQMGDAAVSLMDAFRSADEVLLNGVQGITDLITTPGLINVDFADVKGIMSGAGTALMGIGSARGEGRSLKAAEIAINSPLLEASMEGAQGVLMSIAGGSDLGLFEINEAASLVQDAAHPDANIIFGTVIDDSLGDEVRVTVIAAGFDVSGPGRKPVMGETGGAHRIESAKAGKLTSTLFEPVDAVSVPLHTNGATLSIGGDDDDVDVPPFMRR",
+      "families": [
+        "PF00091",
+        "PF12327"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": {
+        "ccd": "A1DO7",
+        "smiles": "CC(=O)Nc1ccccc1OCc2ccccc2",
+        "heavy_atoms": 18,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1DO7"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/14YT/1",
+      "structure_doi": "https://doi.org/10.2210/pdb14yt/pdb",
+      "retrieved_at": "2026-10-21T05:18:53.597382+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11nx_1",
+      "pdb_id": "11NX",
+      "entity_id": "1",
+      "sequence": "HSHPALTPEQKKELSDIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPCIGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSERCAQYKKDGADFAKWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILPDGDHDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKYSHEEIAMATVTALRRTVPPAVTGVTFLSGGQSEEEASINLNAINKCPLLKPWALTFSYGRALQASALKAWGGKKENLKAAQEEYVKRALANSLACQGKYTP",
+      "families": [
+        "PF00274"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11NX/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11nx/pdb",
+      "retrieved_at": "2026-10-21T05:18:57.051576+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "12as_1",
+      "pdb_id": "12AS",
+      "entity_id": "1",
+      "sequence": "MKTAYIAKQRQISFVKSHFSRQLEERLGLIEVQAPILSRVGDGTQDNLSGAEKAVQVKVKALPDAQFEVVHSLAKWKRQTLGQHDFSAGEGLYTHMKALRPDEDRLSPLHSVYVDQWDWERVMGDGERQFSTLKSTVEAIWAGIKATEAAVSEEFGLAPFLPDQIHFVHSQELLSRYPDLDAKGRERAIAKDLGAVFLVGIGGKLSDGHRHDVRAPDYDDWSTPSELGHAGLNGDILVWNPVLEDAFELSSMGIRVDADTLKHQLALTGDEDRLELEWHQALLRGEMPQTIGGGIGQSRLTMLLLQLPHIGQVQAGVWPAAVRESVPSLL",
+      "families": [
+        "PF03590"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": {
+        "ccd": "ASN",
+        "smiles": "C([C@@H](C(=O)O)N)C(=O)N",
+        "heavy_atoms": 9,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/ASN"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/12AS/1",
+      "structure_doi": "https://doi.org/10.2210/pdb12as/pdb",
+      "retrieved_at": "2026-10-21T05:19:02.865767+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10ak_1",
+      "pdb_id": "10AK",
+      "entity_id": "1",
+      "sequence": "ANEGEEDDDKDFLWPAPNEEQVTCLKMYFGHSSFKPVQWKVIHSVLEERRDNVAVMATGYGKSLCFQYPPVYVGKIGLVISPLISLMEDQVLQLKMSNIPACFLGSAQSENVLTDIKLGKYRIVYVTPEYCSGNMGLLQQLEADIGITLIAVDEAHCISEWGHDFRDSFRKLGSLKTALPMVPIVALTATASSSIREDIVRCLNLRNPQITCTGFDRPNLYLEVRRKTGNILQDLQPFLVKTSSHWEFEGPTIIYCPSRKMTQQVTGELRKLNLSCGTYHAGMSFSTRKDIHHRFVRDEIQCVIATIAFGMGINKADIRQVIHYGAPKDMESYYQEIGRAGRDGLQSSCHVLWAPADINLNRHLLTEIRNEKFRLYKLKMMAKMEKYLHSSRCRRQIILSHFEDKQVQKASLGIMGTEKCCDNCRSRLDHC",
+      "families": [
+        "PF00270",
+        "PF00271",
+        "PF16124"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": {
+        "ccd": "A1C4L",
+        "smiles": "c1ccc(cc1)CN([C@@H]2CCS(=O)(=O)C2)C(=O)Cc3ccc(cc3)n4cccc4",
+        "heavy_atoms": 29,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1C4L"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10AK/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10ak/pdb",
+      "retrieved_at": "2026-10-21T05:19:06.795606+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "12yf_1",
+      "pdb_id": "12YF",
+      "entity_id": "1",
+      "sequence": "SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQ",
+      "families": [
+        "PF05409"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": {
+        "ccd": "A1DEK",
+        "smiles": "c1c(c(cc(c1Cl)Cl)N2CCN(CC2)C(=O)C3=CC(=O)NC(=O)N3)NS(=O)(=O)C4CC4",
+        "heavy_atoms": 31,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1DEK"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/12YF/1",
+      "structure_doi": "https://doi.org/10.2210/pdb12yf/pdb",
+      "retrieved_at": "2026-10-21T05:19:10.839267+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "13qx_1",
+      "pdb_id": "13QX",
+      "entity_id": "1",
+      "sequence": "MGSSHHHHHHSSGLVPRGSHMASMTGGQQMGRGSSLRMVRTIKVFTTVDNINLHTQVVDMSMTYGQQFGPTYLDGADVTKIKPHNSHEGKTFYVLPNDDTLRVEAFEYYHTTDPSFLGRYMSALNHTKKWKYPQVNGLTSIKWADNNSYLATALLTLQQIELKFNPPALQDAYYRARAGEAANFCALILAYCNKTVGELGDVRETMSYLFQHANLDSCKRVLNVVCKTCGQQQTTLKGVEAVMYMGTLSYEQFKKGVQIPCTCGKQATKYLVQQESPFVMMSAPPAQYELKHGTFTCASEYTGNYQCGHYKHITSKETLYCIDGALLTKSSEYKGPITDVFYKENSYTTTIKHV",
+      "families": [
+        "PF08715"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": {
+        "ccd": "A1CW5",
+        "smiles": "c1cc(ncc1CN2CCCCC2=O)Cl",
+        "heavy_atoms": 15,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1CW5"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/13QX/1",
+      "structure_doi": "https://doi.org/10.2210/pdb13qx/pdb",
+      "retrieved_at": "2026-10-21T05:19:16.048097+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10oo_1",
+      "pdb_id": "10OO",
+      "entity_id": "1",
+      "sequence": "MGSSHHHHHHSQDPMLAGVSEYELPEDPKWEFPRDKLTLGKPLGEGCFGQVVMAEAVGIDKDKPKEAVTVAVKMLKDDATEKDLSDLVSEMEMMKMIGKHKNIINLLGACTQDGPLYVIVEYASKGNLREYLRARRPPGMEYSYDINRVPEEQMTFKDLVSCTYQLARGMEYLASQKCIHRDLAARNVLVTENNVMKIADFGLARVINNIDYYKKTTNGRLPVKWMAPEALFDRVYTHQSDVWSFGVLMWEIFTLGGSPYPGIPVEELFKLLKEGHRMDKPANCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDRILTLTTNEE",
+      "families": [
+        "PF07714"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": {
+        "ccd": "A1C65",
+        "smiles": "COc1cc(ccc1Nc2ncc(c(n2)c3c[nH]c4c3cccc4)Cl)N5CCC(CC5)N",
+        "heavy_atoms": 32,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/A1C65"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10OO/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10oo/pdb",
+      "retrieved_at": "2026-10-21T05:19:22.030152+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11bd_1",
+      "pdb_id": "11BD",
+      "entity_id": "1",
+      "sequence": "ALDGLVETPTGYIESLPRVVKRRVNALKNLQVKCAQIEAKFYEEVHDLERKYAVLYQPLFDKRFEIINAIYEPTEEECEWKPDEEDEISEELKEKAKIEDEKKDEEKEDPKGIPEFWLTVFKNVDLLSDMVQEHDEPILKHLKDIKVKFSDAGQPMSFVLEFHFEPNEYFTNEVLTKTYRMRSEPDDSDPFSFDGPEIMGCTGCQIDWKKGKNVTLKTIKKKQKHKGRGTVRTVTKTVSNDSFFNFFAPPEVPESGDLDDDAEAILAADFEIGHFLRERIIPRSVLYFTGEAIEDA",
+      "families": [
+        "PF00956"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11BD/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11bd/pdb",
+      "retrieved_at": "2026-10-21T05:19:26.858131+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10kt_1",
+      "pdb_id": "10KT",
+      "entity_id": "1",
+      "sequence": "DYKDDDDGAPPIMGSSVYITVELAIAVLAILGNVLVCWAVWLNSNLQNVTNYFVVSLAAADIAVGVLAIPFAITISTGFCAACHGCLFIACFVLVLTQSSIFSLLAIAIDRYIAIRIPLRYNGLVTGTRAKGIIAICWVLSFAIGLTPMLGWNNCGQPKEGKNHSQGCGEGQVACLFEDVVPMNYMVYFNFFACVLVPLLLMLGVYLRIFLAARRQLADLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLERARSTLQKEVHAAKSLAIIVGLFALCWLPLHIINCFTFFCPDCSHAPLWLMYLAIVLSHTNSVVNPFIYAYRIREFRQTFRKIIRSHVLRQQEPFKAHHHHHHHHHH",
+      "families": [
+        "PF00001"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10KT/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10kt/pdb",
+      "retrieved_at": "2026-10-21T05:19:30.435974+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "12av_1",
+      "pdb_id": "12AV",
+      "entity_id": "1",
+      "sequence": "MFSKLAHLQRFAVLSRGVHSSVASATSVATKKTVQGPPTSDDIFEREYKYGAHNYHPLPVALERGKGIYLWDVEGRKYFDFLSSYSAVNQGHCHPKIVNALKSQVDKLTLTSRAFYNNVLGEYEEYITKLFNYHKVLPMNTGVEAGETACKLARKWGYTVKGIQKYKAKIVFAAGNFWGRTLSAISSSTDPTSYDGFGPFMPGFDIIPYNDLPALERALQDPNVAAFMVEPIQGEAGVVVPDPGYLMGVRELCTRHQVLFIADEIQTGLARTGRWLAVDYENVRPDIVLLGKALSGGLYPVSAVLCDDDIMLTIKPGEHGSTYGGNPLGCRVAIAALEVLEEENLAENADKLGIILRNELMKLPSDVVTAVRGKGLLNAIVIKETKDWDAWKVCLRLRDNGLLAKPTHGDIIRFAPPLVIKEDELRESIEIINKTILSF",
+      "families": [
+        "PF00202"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/12AV/1",
+      "structure_doi": "https://doi.org/10.2210/pdb12av/pdb",
+      "retrieved_at": "2026-10-21T05:19:34.617524+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10zg_1",
+      "pdb_id": "10ZG",
+      "entity_id": "1",
+      "sequence": "MANVLVINFPGEGHINPTLAVVSELILRGETVVSYCIEDYRKKVEATGAEFRVFENFLSQINIMERVNEGGSPLTMLSHMIEASERIVTQIVEETKEEKYDYLIYDNHFPVGRIIANILQLPSVSSCTTFAVNQYINFHDEQELRQVDEMDPLYQSCLAGMERWNKQYGMKCNSMYDIMNHPGDITIVYTSKKYQPRSEVFDESYKFVGPSIATRKEVGSFPTEDLKNEKVIFISMGTVFNEQPALYEKCFEAFKDVDATVVLVVGKKINISQFENIPKNFKLYNYVPQLEVLQHADVFVTHGGMNSSSEALYYGVPLVVIPVTGDQPFVAKRLTEVGAGITLNRNELTSELLRETVKKVMDDVTFKENSRKVGESLRNAGGYQRAVEEIFKLKMKPY",
+      "families": [
+        "PF00201"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10ZG/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10zg/pdb",
+      "retrieved_at": "2026-10-21T05:19:38.907178+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11zl_1",
+      "pdb_id": "11ZL",
+      "entity_id": "1",
+      "sequence": "DNNFYSVEIGDSTFTVLKRYQNLKPIGSGAQGIVCAAYDAILERNVAIKKLSRPFQNQTHAKRAYRELVLMKCVNHKNIIGLLNVFTPQKSLEEFQDVYIVMELMDANLCQVIQMELDHERMSYLLYQMLCGIKHLHSAGIIHRDLKPSNIVVKSDCTLKILDFGLARTAGTSFMMTPYVVTRYYRAPEVILGMGYKENVDLWSVGCIMGEMVCHKILFPGRDYIDQWNKVIEQLGTPCPEFMKKLQPTVRTYVENRPKYAGYSFEKLFPDVLFPADSEHNKLKASQARDLLSKMLVIDASKRISVDEALQHPYINVWYDPSEAEAPPPKIPDKQLDEREHTIEEWKELIYKEVMDL",
+      "families": [
+        "PF00069"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11ZL/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11zl/pdb",
+      "retrieved_at": "2026-10-21T05:19:42.280009+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "12ew_1",
+      "pdb_id": "12EW",
+      "entity_id": "1",
+      "sequence": "GAGSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRTDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSSGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF",
+      "families": [
+        "PF00107",
+        "PF08240"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/12EW/1",
+      "structure_doi": "https://doi.org/10.2210/pdb12ew/pdb",
+      "retrieved_at": "2026-10-21T05:19:46.490695+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10pp_1",
+      "pdb_id": "10PP",
+      "entity_id": "1",
+      "sequence": "MIINHNMSAMFAQRQGGVNELHLAKNIEKLSSAQRINRAGDDASGLAVSEKMRSQIRGLNQAGQNIQNGVSFIQATEGYLGETTDIIQRLRELAIQASNGIYSAEDRMQIQVEVSQLVDEVDRIASHAQFNGMNILTGRFAQDSVTGPMQLHVGANMDQREKIYIGTMTATALGIIGAQQGGEDKMISMSSVDGANMALGALDNALKQINKQRADLGAYQNRFEMAYDGIAIAAENMQAAESRIRDADMAKEIVDYTKNQILIQSGTAMLAQANAQPQAVVRLL",
+      "families": [
+        "PF00669",
+        "PF00700"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10PP/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10pp/pdb",
+      "retrieved_at": "2026-10-21T05:19:56.996467+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10mn_1",
+      "pdb_id": "10MN",
+      "entity_id": "1",
+      "sequence": "SNAGHRTLASTPALWASIPCPRSELRLDLVLPSGQSFRWREQSPAHWSGVLADQVWTLTQTEEQLHCTVYRGDKSQASRPTPDELEAVRKYFQLDVTLAQLYHHWGSVDSHFQEVAQKFQGVRLLRQDPIECLFSFICSSNNNIARITGMVERLCQAFGPRLIQLDDVTYHGFPSLQALAGPEVEAHLRKLGLGYRARYVSASARAILEEQGGLAWLQQLRESSYEEAHKALCILPGVGTKVADCICLMALDKPQAVPVDVHMWHIAQRDYSWHPTTSQAKGPSPQTNKELGNFFRSLWGPYAGWAQAVLFSADLRQSR",
+      "families": [
+        "PF00730",
+        "PF07934"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10MN/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10mn/pdb",
+      "retrieved_at": "2026-10-21T05:19:59.711504+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11br_1",
+      "pdb_id": "11BR",
+      "entity_id": "1",
+      "sequence": "MSASAATGVFVLSLSAIPVTYVFNHLAAQHDSWTIVGVAALILFLVALLARVLVKRKPPRDPLFYVYAVFGFTSVVALIIGLEQDGIIDGFMTHYLREGEPYLNTAYGHMICYWDGSAHYLMYLVMVAAIAWEETYRTIGLYWVGSIIMAVVVFVPGNIVGKYGTRICPAFFLSIPATCLPVWAGFRIYNQPSENYNYPSKVIQEAQAKDLLRRPFDLMLVVCLLLATGFCLFRGLIALDCPSELCRLYTQFQEPYLKDPAAYPKIQMLAYMFYSVPYFVTALYGLVVPGCSWMPDITLIHAGGLAQAQFSHIGASLHARTAYVYRVPEEAKILFLALNIAYGVLPQLLAYRCIYKPEFFIKTKAEEKVE",
+      "families": [
+        "PF26083"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11BR/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11br/pdb",
+      "retrieved_at": "2026-10-21T05:20:07.546993+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10ot_1",
+      "pdb_id": "10OT",
+      "entity_id": "1",
+      "sequence": "RSLLVWTGEPTTKHFSDIFLGRCLIYTQILRPEMRDQNCQEILSTFKGAFVSKNPCDITREDYAPLVKLVTQTIPCDKTLFWSKSKHLAHQYTWIQGKMFTLEDTLLGYIADDLRWCGDPSTSDMNYVSCPHWSENCPNNPITVFWKVISQKFAEDACGVVQVMLDGSLREPFYKDSTFGSVQVFSLDPNKVHKLQAWVMHDIEGASSNACSSSSLNELKMIVQKRNMIFACVDNYRPARFLQCVKNPEHPSCRLNTLEVLFQ",
+      "families": [
+        "PF02267"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10OT/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10ot/pdb",
+      "retrieved_at": "2026-10-21T05:20:12.932322+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10qs_1",
+      "pdb_id": "10QS",
+      "entity_id": "1",
+      "sequence": "KREAEANTGDNSVSTTKTSTRIVGGTNSSWGEWPWQVSLQVKLTAQRHLCGGSLIGHQWVLTAAHCFDGLPLQDVWRIYSGILNLSDITKDTPFSQIKEIIIHQNYKVSEGNHDIALIKLQAPLNYTEFQKPISLPSKGDTSTIYTNCWVTGWGFSKEKGEIQNILQKVNIPLVTNEECQKRYQDYKITQRMVCAGYKEGGKDACKGDSGGPLVCKHNGMWRLVGITSWGEGCARREQPGVYTKVAEYMDWILEKTQSSDGKAQMQSPAHHHHHH",
+      "families": [
+        "PF00089"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10QS/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10qs/pdb",
+      "retrieved_at": "2026-10-21T05:20:26.767863+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "10ef_1",
+      "pdb_id": "10EF",
+      "entity_id": "1",
+      "sequence": "MGSSHHHHHHSSGLVPRGSHMASMEADGEDAVLRGQVEIWKYMLSFADSMALKCAVELQLADIIHSHTSPITLSQIASAIPGATSPDLSCLARIMRLLVRRRIFTQHQKPKSDGEEEEALYGPTHSSRWLLTKTNDHDQLTLAPMILMENDPRLMAPWHCFSRCVKEGGVAFKKAHNGQSIWEFGAENPEINKLFNDAMECTAKVVMKAILSHYSDGGFSDIKSMVDVGGGTGGSISEIVRSYPHIKGINFDLPHVIATAPPYSGVSHVGGDMFRSVPTADAIFMKWILHDWSDEDCVKILKNCRKAIAEESGKVIIVESVLEEESNNNNNNNEVFGDTALMLDLVMVAHTTGGKERTQKQWKTILEQGGFPRYNFIKIKALPSIIEAYPN",
+      "families": [
+        "PF00891",
+        "PF08100"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        250,
+        449
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/10EF/1",
+      "structure_doi": "https://doi.org/10.2210/pdb10ef/pdb",
+      "retrieved_at": "2026-10-21T05:20:30.953303+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "12vd_1",
+      "pdb_id": "12VD",
+      "entity_id": "1",
+      "sequence": "GGGRKSITESFATAIHGLKVGHLTDRVIQRSKRMILDTLGAGFLGTTTEVFHIASQYSKIYSSNISSTVWGQPDIRLPPTYAAFVNGVAIHSMDFDDTWHPATHPSGAVLPVLTALAEALPRSPKFSGLDLLLAFNVGIEVQGRLLHFAKEANDMPKRFHPPSVVGTLGSAAAASKFLGLSSTKCREALAIAVSHAGAPMANAATQTKPLHIGNAAKHGIEAAFLAMLGLQGNKQVLDLEAGFGAFYANYSPKVLPSIASYSWLLDQQDVAFKRFPAHLSTHWVADAAASVRKHLVAERALLPTDYIKRIVLRIPNVQYVNRPFPVSEHEARHSFQYVACAMLLDGGITVPSFHECQINRPQVRELLSKVELEYPPDNLPSFNILYCEISVTLKDGATFTDRSDTFYGHWRKPLSQEDLEEKFRANASKMLSWDTVESLIKIVKNLEDLEDCSVLTTLLKGP",
+      "families": [
+        "PF03972",
+        "PF19305"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": {
+        "ccd": "CIZ",
+        "smiles": "C/C(=C/C(=O)O)/C(=O)O",
+        "heavy_atoms": 9,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/CIZ"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/12VD/1",
+      "structure_doi": "https://doi.org/10.2210/pdb12vd/pdb",
+      "retrieved_at": "2026-10-21T05:20:43.232906+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1dt6_1",
+      "pdb_id": "1DT6",
+      "entity_id": "1",
+      "sequence": "MAKKTSSKGKLPPGPTPFPIIGNILQIDAKDISKSLTKFSECYGPVFTVYLGMKPTVVLHGYEAVKEALVDLGEEFAGRGSVPILEKVSKGLGIAFSNAKTWKEMRRFSLMTLRNFGMGKRSIEDRIQEEARCLVEELRKTNASPCDPTFILGCAPCNVICSVIFHNRFDYKDEEFLKLMESLHENVELLGTPWLQVYNNFPALLDYFPGIHKTLLKNADYIKNFIMEKVKEHQKLLDVNNPRDFIDCFLIKMEQENNLEFTLESLVIAVSDLFGAGTETTSTTLRYSLLLLLKHPEVAARVQEEIERVIGRHRSPCMQDRSRMPYTDAVIHEIQRFIDLLPTNLPHAVTRDVRFRNYFIPKGTDIITSLTSVLHDEKAFPNPKVFDPGHFLDESGNFKKSDYFMPFSAGKRMCVGEGLARMELFLFLTSILQNFKLQSLVEPKDLDITAVVNGFVSVPPSYQLCFIPIHHHH",
+      "families": [
+        "PF00067"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": {
+        "ccd": "HEM",
+        "smiles": "Cc1c2n3c(c1CCC(=O)O)C=C4C(=C(C5=[N]4[Fe]36[N]7=C(C=C8N6C(=C5)C(=C8C)C=C)C(=C(C7=C2)C)C=C)C)CCC(=O)O",
+        "heavy_atoms": 43,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/HEM"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1DT6/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1dt6/pdb",
+      "retrieved_at": "2026-10-21T05:20:48.660193+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1dfa_1",
+      "pdb_id": "1DFA",
+      "entity_id": "1",
+      "sequence": "CFAKGTNVLMADGSIECIENIEVGNKVMGKDGRPREVIKLPRGRETMYSVVQKSQHRAHKSDSSREVPELLKFTCNATHELVVRTPRSVRRLSRTIKGVEYFEVITFEMGQKKAPDGRIVELVKEVSKSYPISEGPERANELVESYRKASNKAYFEWTIEARDLSLLGSHVRKATYQTYAPILYENDHFFDYMQKSKFHLTIEGPKVLAYLLGLWIGDGLSDRATFSVDSRDTSLMERVTEYAEKLNLCAEYKDRKEPQVAKTVNLYSKVVRGNGIRNNLNTENPLWDAIVGLGFLKDGVKNIPSFLSTDNIGTRETFLAGLIDSDGYVTDEHGIKATIKTIHTSVRDGLVSLARSLGLVVSVNAEPAKVDMNGTKHKISYAIYMSGGDVLLNVLSKCAGSKKFRPAPAAAFARECRGFYFELQELKEDDYYGITLSDDSDHQFLLANQVVVHN",
+      "families": [
+        "PF05203",
+        "PF05204"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1DFA/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1dfa/pdb",
+      "retrieved_at": "2026-10-21T05:20:50.209926+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1akn_1",
+      "pdb_id": "1AKN",
+      "entity_id": "1",
+      "sequence": "AKLGSVYTEGGFVEGVNKKLSLFGDSIDIFKGIPFAAAPKALEKPERHPGWQGTLKAKSFKKRCLQATLTQDSTYGNEDCLYLNIWVPQGRKEVSHDLPVMIWIYGGAFLMGASQGANFLSNYLYDGEEIATRGNVIVVTFNYRVGPLGFLSTGDSNLPGNYGLWDQHMAIAWVKRNIEAFGGDPDNITLFGESAGGASVSLQTLSPYNKGLIKRAISQSGVGLCPWAIQQDPLFWAKRIAEKVGCPVDDTSKMAGCLKITDPRALTLAYKLPLGSTEYPKLHYLSFVPVIDGDFIPDDPVNLYANAADVDYIAGTNDMDGHLFVGMDVPAINSNKQDVTEEDFYKLVSGLTVTKGLRGANATYEVYTEPWAQDSSQETRKKTMVDLETDILFLIPTKIAVAQHKSHAKSANTYTYLFSQPSRMPIYPKWMGADHADDLQYVFGKPFATPLGYRAQDRTVSKAMIAYWTNFARTGDPNTGHSTVPANWDPYTLEDDNYLEINKQMDSNSMKLHLRTNYLQFWTQTYQALPTVTSAGASLLPPEDNSQASPVPPADNSGAPTEPSAGDSEVAQMPVVIGF",
+      "families": [
+        "PF00135"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": {
+        "ccd": "NAG",
+        "smiles": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O)O",
+        "heavy_atoms": 15,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/NAG"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AKN/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1akn/pdb",
+      "retrieved_at": "2026-10-21T05:20:56.744904+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1e7g_1",
+      "pdb_id": "1E7G",
+      "entity_id": "1",
+      "sequence": "DAHKSEVAHRFKDLGEENFKALVLIAFAQYLQQCPFEDHVKLVNEVTEFAKTCVADESAENCDKSLHTLFGDKLCTVATLRETYGEMADCCAKQEPERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLKKYLYEIARRHPYFYAPELLFFAKRYKAAFTECCQAADKAACLLPKLDELRDEGKASSAKQRLKCASLQKFGERAFKAWAVARLSQRFPKAEFAEVSKLVTDLTKVHTECCHGDLLECADDRADLAKYICENQDSISSKLKECCEKPLLEKSHCIAEVENDEMPADLPSLAADFVESKDVCKNYAEAKDVFLGMFLYEYARRHPDYSVVLLLRLAKTYETTLEKCCAAADPHECYAKVFDEFKPLVEEPQNLIKQNCELFEQLGEYKFQNALLVRYTKKVPQVSTPTLVEVSRNLGKVGSKCCKHPEAKRMPCAEDYLSVVLNQLCVLHEKTPVSDRVTKCCTESLVNRRPCFSALEVDETYVPKEFNAETFTFHADICTLSEKERQIKKQTALVELVKHKPKATKEQLKAVMDDFAAFVEKCCKADDKETCFAEEGKKLVAASQAALGL",
+      "families": [
+        "PF00273"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": {
+        "ccd": "MYR",
+        "smiles": "CCCCCCCCCCCCCC(=O)O",
+        "heavy_atoms": 16,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/MYR"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1E7G/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1e7g/pdb",
+      "retrieved_at": "2026-10-21T05:21:00.382968+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1cy1_1",
+      "pdb_id": "1CY1",
+      "entity_id": "1",
+      "sequence": "GSMGKALVIVESPAKAKTINKYLGSDYVVKSSVGHIRDLPTSGSAAKKSADSTSTKTAKKPKKDERGALVNRMGVDPWHNWEAHYEVLPGKEKVVSELKQLAEKADHIYLATDLDREGEAIAWHLREVIGGDDARYSRVVFNEITKNAIRQAFNKPGELNIDRVNAQQARRFMDRVVGYMVSPLLWKKIARGLSAGRVQSVAVRLVVEREREIKAFVPEEFWEVDASTTTPSGEALALQVTHQNDKPFRPVNKEQTQAAVSLLEKARYSVLEREDKPTTSKPGAPFITSTLQQAASTRLGFGVKKTMMMAQRLYEAGYITYMRTDSTNLSQDAVNMVRGYISDNFGKKYLPESPNQYASKENSQEAHEAIRPSDVNVMAESLKDMEADAQKLYQLIWRQFVACQMTPAKYDSTTLTVGAGDFRLKARGRILRFDGWTKVMPALRKGDEDRILPAVNKGDALTLVELTPAQHFTKPPARFSEASLVKELEKRGIGRPSTYASIISTIQDRGYVRVENRRFYAEKMGEIVTDRLEENFRELMNYDFTAQMENSLDQVANHEAEWKAVLDHFFSDFTQQLDKAEKDPEEGGMRPNQMVLTSI",
+      "families": [
+        "PF01131",
+        "PF01751"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": {
+        "ccd": "TMP",
+        "smiles": "CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)COP(=O)(O)O)O",
+        "heavy_atoms": 21,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/TMP"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1CY1/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1cy1/pdb",
+      "retrieved_at": "2026-10-21T05:21:04.880218+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1ck7_1",
+      "pdb_id": "1CK7",
+      "entity_id": "1",
+      "sequence": "APSPIIKFPGDVAPKTDKELAVQYLNTFYGCPKESCNLFVLKDTLKKMQKFFGLPQTGDLDQNTIETMRKPRCGNPDVANYNFFPRKPKWDKNQITYRIIGYTPDLDPETVDDAFARAFQVWSDVTPLRFSRIHDGEADIMINFGRWEHGDGYPFDGKDGLLAHAFAPGTGVGGDSHFDDDELWTLGEGQVVRVKYGNADGEYCKFPFLFNGKEYNSCTDTGRSDGFLWCSTTYNFEKDGKYGFCPHEALFTMGGNAEGQPCKFPFRFQGTSYDSCTTEGRTDGYRWCGTTEDYDRDKKYGFCPETAMSTVGGNSEGAPCVFPFTFLGNKYESCTSAGRSDGKMWCATTANYDDDRKWGFCPDQGYSLFLVAAHAFGHAMGLEHSQDPGALMAPIYTYTKNFRLSQDDIKGIQELYGASPDIDLGTGPTPTLGPVTPEICKQDIVFDGIAQIRGEIFFFKDRFIWRTVTPRDKPMGPLLVATFWPELPEKIDAVYEAPQEEKAVFFAGNEYWIYSASTLERGYPKPLTSLGLPPDVQRVDAAFNWSKNKKTYIFAGDKFWRYNEVKKKMDPGFPKLIADAWNAIPDNLDAVVDLQGGGHSYFFKGAYYLKLENQSLKSVKFGSIKSDWLGC",
+      "families": [
+        "PF00040",
+        "PF00045",
+        "PF00413",
+        "PF01471"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1CK7/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1ck7/pdb",
+      "retrieved_at": "2026-10-21T05:21:11.777805+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1aor_1",
+      "pdb_id": "1AOR",
+      "entity_id": "1",
+      "sequence": "MYGNWGRFIRVNLSTGDIKVEEYDEELAKKWLGSRGLAIYLLLKEMDPTVDPLSPENKLIIAAGPLTGTSAPTGGRYNVVTKSPLTGFITMANSGGYFGAELKFAGYDAIVVEGKAEKPVYIYIKDEHIEIRDASHIWGKKVSETEATIRKEVGSEKVKIASIGPAGENLVKFAAIMNDGHRAAGRGGVGAVMGSKNLKAIAVEGSKTVPIADKQKFMLVVREKVNKLRNDPVAGGGLPKYGTAVLVNIINENGLYPVKNFQTGVYPYAYEQSGEAMAAKYLVRNKPCYACPIGCGRVNRLPTVGETEGPEYESVWALGANLGINDLASIIEANHMCDELGLDTISTGGTLATAMELYEKGHIKDEELGDAPPFRWGNTEVLHYYIEKIAKREGFGDKLAEGSYRLAESYGHPELSMTVKKLELPAYDPRGAEGHGLGYATNNRGGCHIKNYMISPEILGYPYKMDPHDVSDDKIKMLILFQDLTALIDSAGLCLFTTFGLGADDYRDLLNAALGWDFTTEDYLKIGERIWNAERLFNLKAGLDPARDDTLPKRFLEEPMPEGPNKGHTVRLKEMLPRYYKLRGWTEDGKIPKEKLEELGIAEFY",
+      "families": [
+        "PF01314",
+        "PF02730"
+      ],
+      "job_type": "protein_ligand",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": {
+        "ccd": "58M",
+        "smiles": "C([C@@H]1C2=C([C@H]3[C@@H](O1)NC4=C(N3)C(=O)NC(=N4)N)S[W]5(S2)SC6=C(S5)[C@H]7[C@H](NC8=C(N7)C(=O)NC(=N8)N)O[C@@H]6COP(=O)(O)O)OP(=O)(O)O",
+        "heavy_atoms": 49,
+        "source": "https://data.rcsb.org/rest/v1/core/chemcomp/58M"
+      },
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1AOR/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1aor/pdb",
+      "retrieved_at": "2026-10-21T05:21:21.145335+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11eu_1",
+      "pdb_id": "11EU",
+      "entity_id": "1",
+      "sequence": "MRVRRGIRGGLDWLKRKLFCVGEDWYFLTVLGVLMALISFTMNFTVGRVVRAHKWLYREIGDSHLLRYLSWTVYPVALVSFSSGFSQSITPFSGGSGIPELKTILSGVVLEDYLDIKNFGAKAVGLTCTLASGSTIFLGKVGPFVHLSVMIAAYLGRVRAKATGESENKSKRNEMLVAGAAVGVATVFAAPFSGVLFCIEVVSSHFSVWDYWRGFFAATCGAFMFRLLAVFNSEQETITSLYKTSFRVEVPFDLPEIFFFVALGAICGVASCAYLFCQRKFLGFVKTNPVLSKLMATSKPLYSALAALVLASVTYPPGAGRFMASRLSMKEYLDSLLDHNSWALLTRQASPPWPVEPDPQNLWFEWYHPQFTIFGTLAFFLVMKFWMLILATTIPMPAGYFMPIFIFGAAIGRLLGEALSVAFPEGIVAGGVTNPIMPGGYALAGAAAFSGAVTHSISTALLAFELTGQIVHALPVLMAVLAANAIAQSCQPSFYDGTIIVKKLPYLPWIRGRKISSHRVTVEHFMNRAITTLAKDTPQEEVVKVVTSTDMAEYPLVASTESQTLVGTMRRAQLVQALQAEPPSWAPGQQRCLQDILAEGCPVEPVTLKLSPETSLHQAHNLFELLNLQSLFVTSQGRAVGFVSWVELEKAISKLTNPPAPKSNSLEVLFQ",
+      "families": [
+        "PF00654"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11EU/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11eu/pdb",
+      "retrieved_at": "2026-10-21T05:21:22.678177+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1d0h_1",
+      "pdb_id": "1D0H",
+      "entity_id": "1",
+      "sequence": "MGHGHHHHHHHHHHSSGHIEGRHMLDNEEDIDVILKKSTILNLDINNDIISDISGFNSSVITYPDAQLVPGINGKAIHLVNNESSEVIVHKAMDIEYNDMFNNFTVSFWLRVPKVSASHLEQYGTNEYSIISSMKKHSLSIGSGWSVSLKGNNLIWTLKDSAGEVRQITFRDLPDKFNAYLANKWVFITITNDRLSSANLYINGVLMGSAEITGLGAIREDNNITLKLDRCNNNNQYVSIDKFRIFCKALNPKEIEKLYTSYLSITFLRDFWGNPLRYDTEYYLIPVASSSKDVQLKNITDYMYLTNAPSYTNGKLNIYYRRLYNGLKFIIKRYTPNNEIDSFVKSGDFIKLYVSYNNNEHIVGYPKDGNAFNNLDRILRVGYNAPGIPLYKKMEAVKLRDLKTYSVQLKLYDDKNASLGLVGTHNGQIGNDPNRDILIASNWYFNHLKDKILGCDWYFVPTDEGWTND",
+      "families": [
+        "PF07951",
+        "PF07953"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1D0H/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1d0h/pdb",
+      "retrieved_at": "2026-10-21T05:21:28.605958+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1dpi_1",
+      "pdb_id": "1DPI",
+      "entity_id": "1",
+      "sequence": "VISYDNYVTILDEETLKAWIAKLEKAPVFAFDTETDSLDNISANLVGLSFAIEPGVAAYIPVAHDYLDAPDQISRERALELLKPLLEDEKALKVGQNLKYDRGILANYGIELRGIAFDTMLESYILNSVAGRHDMDSLAERWLKHKTITFEEIAGKGKNQLTFNQIALEEAGRYAAEDADVTLQLHLKMWPDLQKHKGPLNVFENIEMPLVPVLSRIERNGVKIDPKVLHNHSEELTLRLAELEKKAHEIAGEEFNLSSTKQLQTILFEKQGIKPLKKTPGGAPSTSEEVLEELALDYPLPKVILEYRGLAKLKSTYTDKLPLMINPKTGRVHTSYHQAVTATGRLSSTDPNLQNIPVRNEEGRRIRQAFIAPEDYVIVSADYSQIELRIMAHLSRDKGLLTAFAEGKDIHRATAAEVFGLPLETVTSEQRRSAKAINFGLIYGMSAFGLARQLNIPRKEAQKYMDLYFERYPGVLEYMERTRAQAKEQGYVETLDGRRLYLPDIKSSNGARRAAAERAAINAPMQGTAADIIKRAMIAVDAWLQAEQPRVRMIMQVHDELVFEVHKDDVDAVAKQIHQLMENCTRLDVPLLVEVGSGENWDQAH",
+      "families": [
+        "PF00476",
+        "PF01612"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1DPI/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1dpi/pdb",
+      "retrieved_at": "2026-10-21T05:21:30.134966+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11zt_1",
+      "pdb_id": "11ZT",
+      "entity_id": "1",
+      "sequence": "MAGMKTASGDYIDSSWELRVFVGEEDPEAESVTLRVTGESHIGGVLLKIVEQINRKQDWSDHAIWWEQKRQWLLQTHWTLDKYGILADARLFFGPQHRPVILRLPNRRALRLRASFSQPLFQAVAAICRLLSIRHPEELSLLRAPEKKEKKKKEKEPEEELYDLSYHMLSRPQPPPDPLLLQRLPRPSSLSDKTQLHSRWLDSSRCLMQQGIKAGDALWLRFKYYSFFDLDPKTDPVRLTQLYEQARWDLLLEEIDCTEEEMMVFAALQYHINKLSQSGEVGEPAAEGLNPYGLVAPRFQRKFKAKQLTPRILEAHQNVAQLSLAEAQLRFIQAWQSLPDFGISYVMVRFKGSRKDEILGIANNRLIRIDLAVGDVVKTWRFSNMRQWNVNWDIRQVAIEFDEHINVAFSCVSASCRIVHEYIGGYIFLSTRERARGEELDEDLFLQLTGGHEAFLLVPRGSGSGSGSKSATTTVMNPKFAESLEHHHHHH",
+      "families": [
+        "PF00373"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11ZT/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11zt/pdb",
+      "retrieved_at": "2026-10-21T05:21:31.776107+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1a6r_1",
+      "pdb_id": "1A6R",
+      "entity_id": "1",
+      "sequence": "MHHHHHHASENLAFQGAMASSIDISKINSWNKEFQSDLTHQLATTVLKNYNADDALLNKTRLQKQDNRVFNTVVSTDSTPVTNQKSSGRAWLFAATNQLRLNVLSELNLKEFELSQAYLFFYDKLEKANYFLDQIVSSADQDIDSRLVQYLLAAPTEDGGQYSMFLNLVKKYGLIPKDLYGDLPYSTTASRKWNSLLTTKLREFAETLRTALKERSADDSIIVTLREQMQREIFRLMSLFMDIPPVQPNEQFTWEYVDKDKKIHTIKSTPLEFASKYAKLDPSTPVSLINDPRHPYGKLIKIDRLGNVLGGDAVIYLNVDNETLSKLVVKRLQNNKAVFFGSHTPKFMDKKTGVMDIELWNYPAIGYNLPQQKASRIRYHESLMTHAMLITGCHVDETSKLPLRYRVENSWGKDSGKDGLYVMTQKYFEEYCFQIVVDINELPKELASKFTSGKEEPIVLPIWDPMGALAK",
+      "families": [
+        "PF03051"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1A6R/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1a6r/pdb",
+      "retrieved_at": "2026-10-21T05:21:36.709821+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11kk_1",
+      "pdb_id": "11KK",
+      "entity_id": "1",
+      "sequence": "SNAMSEPLLIARTPDTELFLLPGMANRHGLITGATGTGKTVTLQKLAESLSEIGVPVFMADVKGDLTGVAQAGTVSEKLLARLKNIGVNDWQPHANPVVVWDIFGEKGHPVRATVSDLGPLLLARLLNLNDVQSGVLNIIFRIADDQGLLLLDFKDLRAITQYIGDNAKSFQNQYGNISSASVGAIQRGLLSLEQQGAAHFFGEPMLDIKDWMRTDANGKGVINILSAEKLYQMPKLYAASLLWMLSELYEQLPEAGDLEKPKLVFFFDEAHLLFNDAPQVLLDKIEQVIRLIRSKGVGVWFVSQNPSDIPDNVLGQLGNRVQHALRAFTPKDQKAVKAAAQTMRANPAFDTEKAIQELGTGEALISFLDAKGSPSVVERAMVIAPCSRMGPVTEDERNGLINHSPVYGKYEDEVDRESAYEMLQKGFQASTEQQNNPPAKGKEVAVDDGILGGLKDILFGTTGPRGGKKDGVVQTMAKSAARQVTNQIVRGMLGSLLGGRRR",
+      "families": [
+        "PF05872"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11KK/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11kk/pdb",
+      "retrieved_at": "2026-10-21T05:21:40.049761+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1btc_1",
+      "pdb_id": "1BTC",
+      "entity_id": "1",
+      "sequence": "SNMLLNYVPVYVMLPLGVVNVDNVFEDPDGLKEQLLQLRAAGVDGVMVDVWWGIIELKGPKQYDWRAYRSLFQLVQECGLTLQAIMSFHQCGGNVGDIVNIPIPQWVLDIGESNHDIFYTNRSGTRNKEYLTVGVDNEPIFHGRTAIEIYSDYMKSFRENMSDFLESGLIIDIEVGLGPAGELRYPSYPQSQGWEFPRIGEFQCYDKYLKADFKAAVARAGHPEWELPDDAGKYNDVPESTGFFKSNGTYVTEKGKFFLTWYSNKLLNHGDQILDEANKAFLGCKVKLAIKVSGIHWWYKVENHAAELTAGYYNLNDRDGYRPIARMLSRHHAILNFTCLEMRDSEQPSDAKSGPQELVQQVLSGGWREDIRVAGENALPRYDATAYNQIILNAKPQGVNNNGPPKLSMFGVTYLRLSDDLLQKSNFNIFKKFVLKMHADQDYCANPQKYNHAITPLKPSAPKIPIEVLLEATKPTLPFPWLPETDMKVDG",
+      "families": [
+        "PF01373"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1BTC/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1btc/pdb",
+      "retrieved_at": "2026-10-21T05:21:42.533577+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1dnp_1",
+      "pdb_id": "1DNP",
+      "entity_id": "1",
+      "sequence": "TTHLVWFRQDLRLHDNLALAAACRNSSARVLALYIATPRQWATHNMSPRQAELINAQLNGLQIALAEKGIPLLFREVDDFVASVEIVKQVCAENSVTHLFYNYQYEVNERARDVEVERALRNVVCEGFDDSVILPPGAVMTGNHEMYKVFTPFKNAWLKRLREGMPECVAAPKVRSSGSIEPSPSITLNYPRQSFDTAHFPVEEKAAIAQLRQFCQNGAGEYEQQRDFPAVEGTSRLSASLATGGLSPRQCLHRLLAEQPQALDGGAGSVWLNELIWREFYRHLITYHPSLCKHRPFIAWTDRVQWQSNPAHLQAWQEGKTGYPIVDAAMRQLNSTGWMHNRLRMITASFLVKDLLIDWREGERYFMSQLIDGDLAANNGGWQWAASTGTDAAPYFRIFNPTTQGEKFDHEGEFIRQWLPELRDVPGKVVHEPWKWAQKAGVTLDYPQPIVEHKEARVQTLAAYEAARKGK",
+      "families": [
+        "PF00875",
+        "PF03441"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1DNP/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1dnp/pdb",
+      "retrieved_at": "2026-10-21T05:21:44.953897+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1a31_3",
+      "pdb_id": "1A31",
+      "entity_id": "3",
+      "sequence": "KPKNKDKDKKVPEPDNKKKKPKKEEEQKWKWWEEERYPEGIKWKFLEHKGPVFAPPYEPLPENVKFYYDGKVMKLSPKAEEVATFFAKMLDHEYTTKEIFRKNFFKDWRKEMTNEEKNIITNLSKCDFTQMSQYFKAQTEARKQMSKEEKLKIKEENEKLLKEYGFCIMDNHKERIANFKIEPPGLFRGRGNHPKMGMLKRRIMPEDIIINCSKDAKVPSPPPGHKWKEVRHDNKVTWLVSWTENIQGSIKYIMLNPSSRIKGEKDWQKYETARRLKKCVDKIRNQYREDWKSKEMKVRQRAVALYFIDKLALRAGNEKEEGETADTVGCCSLRVEHINLHPELDGQEYVVEFDFLGKDSIRYYNKVPVEKRVFKNLQLFMENKQPEDDLFDRLNTGILNKHLQDLMEGLTAKVFRTYNASITLQQQLKELTAPDENIPAKILSYNRANRAVAILCNHQRAPPKTFEKSMMNLQTKIDAKKEQLADARRDLKSAKADAKVMKDAKTKKVVESKKKAVQRLEEQLMKLEVQATDREENKQIALGTSKLNYLDPRITVAWCKKWGVPIEKIYNKTQREKFAWAIDMADEDYEF",
+      "families": [
+        "PF01028",
+        "PF02919"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1A31/3",
+      "structure_doi": "https://doi.org/10.2210/pdb1a31/pdb",
+      "retrieved_at": "2026-10-21T05:21:46.610864+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1cqz_1",
+      "pdb_id": "1CQZ",
+      "entity_id": "1",
+      "sequence": "MALRVAAFDLDGVLALPSIAGAFRRSEEALALPRDFLLGAYQTEFPEGPTEQLMKGKITFSQWVPLMDESYRKSSKACGANLPENFSISQIFSQAMAARSINRPMLQAAIALKKKGFTTCIVTNNWLDDGDKRDSLAQMMCELSQHFDFLIESCQVGMIKPEPQIYNFLLDTLKAKPNEVVFLDDFGSNLKPARDMGMVTILVHNTASALRELEKVTGTQFPEAPLPVPCNPNDVSHGYVTVKPGIRLHFVEMGSGPALCLCHGFPESWFSWRYQIPALAQAGFRVLAIDMKGYGDSSSPPEIEEYAMELLCKEMVTFLDKLGIPQAVFIGHDWAGVMVWNMALFYPERVRAVASLNTPFMPPDPDVSPMKVIRSIPVFNYQLYFQEPGVAEAELEKNMSRTFKSFFRASDETGFIAVHKATEIGGILVNTPEDPNLSKITTEEEIEFYIQQFKKTGFRGPLNWYRNTERNWKWSCKGLGRKILVPALMVTAEKDIVLRPEMSKNMEKWIPFLKRGHIEDCGHWTQIEKPTEVNQILIKWLQTEVQNPSVTSKI",
+      "families": [
+        "PF00561"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1CQZ/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1cqz/pdb",
+      "retrieved_at": "2026-10-21T05:21:48.138382+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "1bwf_1",
+      "pdb_id": "1BWF",
+      "entity_id": "1",
+      "sequence": "TEKKYIVALDQGTTSSRAVVMDHDANIISVSQREFEQIYPKPGWVEHDPMEIWATQSWTLVEVLAKADISSDQIAAIGITNQRETTIVWEKETGKPIYNAIVWQCRRTAEICEHLKRDGLEDYIRSNTGLVIDPYFSGTKVKWILDHVEGSRERARRGELLFGTVDTWLIWKMTQGRVHVTDYTNASRTMLFNIHTLDWDDKMLEVLDIPREMLPEVRRSSEVYGQTNIGGKGGTRIPISGIAGDQQAALFGQLCVKEGMAKNTYGTGCFMLMNTGEKAVKSENGLLTTIACGPTGEVNYALEGAVFMAGASIQWLRDEMKLINDAYDSEYFATKVQNTNGVYVVPAFTGLGAPYWDPYARGAIFGLTRGVNANHIIRATLESIAYQTRDVLEAMQADSGIRLHALRVDGGAVANNFLMQFQSDILGTRVERPEVREVTALGAAYLAGLAVGFWQNLDELQEKAVIEREFRPGIETTERNYRYAGWKKAVKRAMAWEEHDE",
+      "families": [
+        "PF00370",
+        "PF02782"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/1BWF/1",
+      "structure_doi": "https://doi.org/10.2210/pdb1bwf/pdb",
+      "retrieved_at": "2026-10-21T05:21:53.096919+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    },
+    {
+      "job_id": "11oa_1",
+      "pdb_id": "11OA",
+      "entity_id": "1",
+      "sequence": "SEPEYEDGRGFGIGELVWGKLRGFSWWPGRIVSWWMTGRSRAAEGTRWVMWFGDGKFSVVCVEKLMPLSSFCSAFHQATYNKQPMYRKAIYEVLQVASSRAGKLFPVCHDSDESDTAKAVEVQNKPMIEWALGGFQPSGPKGLEPPEEEKNPYKEVYTDMWVEPEAAAYAPPPPAKKPRKSTAEKPKVKEIIDERTRERLVYEVRQKCRNIEDICISCGSLNVTLEHPLFVGGMCQNCKNCFLECAYQYDDDGYQSYCTICCGGREVLMCGNNNCCRCFCVECVDLLVGPGAAQAAIKEDPWNCYMCGHKGTYGLLRRREDWPSRLQMFFANNHDQEFDPPKVYPPVPAEKRKPIRVLSLFDGIATGLLVLKDLGIQVDRYIASEVCEDSITVGMVRHQGKIMYVGDVRSVTQKHIQEWGPFDLVIGGSPCNDLSIVNPARKGLYEGTGRLFFEFYRLLHDARPKEGDDRPFFWLFENVVAMGVSDKRDISRFLESNPVMIDAKEVSAAHRARYFWGNLPGMNRPLASTVNDKLELQECLEHGRIAKFSKVRTITTRSNSIKQGKDQHFPVFMNEKEDILWCTEMERVFGFPVHYTDVSNMSHLARQRLLGRSWSVPVIRHLFAPLKEYFACV",
+      "families": [
+        "PF00145",
+        "PF00855",
+        "PF17980",
+        "PF21255"
+      ],
+      "job_type": "monomer",
+      "length_band": [
+        450,
+        700
+      ],
+      "ligand": null,
+      "source": "https://data.rcsb.org/rest/v1/core/polymer_entity/11OA/1",
+      "structure_doi": "https://doi.org/10.2210/pdb11oa/pdb",
+      "retrieved_at": "2026-10-21T05:21:54.757049+00:00",
+      "sequence_license": "CC0-1.0 (PDB archive)",
+      "license_source": "https://www.rcsb.org/pages/usage-policy",
+      "family_source": "Pfam via RCSB; annotations used for grouping"
+    }
+  ],
+  "public_sequences_only": true,
+  "exclusions": [
+    {
+      "candidate": "159L_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "180L_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "185L_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "11CU_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "198L_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "120L_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "11BE_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "12TD_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "187L_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "10YR_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1AE7_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "11OW_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "154L_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1AKE_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "11CE_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1A74_2",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1A2Z_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14AL_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13PX_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13MV_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13NO_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14WO_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13MO_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13PH_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14CN_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14YW_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13MY_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14YI_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13PS_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14CS_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14XC_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14XT_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "11TU_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "12NV_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14ZH_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13NF_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13QK_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14VK_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "11TT_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "12WC_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14WN_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "10AP_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "10LW_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13PK_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14VF_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14VS_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14CL_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "10AJ_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13OZ_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13MU_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13PW_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "10LX_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14XS_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13QU_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14ZJ_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "1A0D_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13PO_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13QG_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13ND_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14ZT_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13FA_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13PE_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13NQ_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14XH_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14YY_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13OT_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "11NK_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14ZW_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "12TA_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14ZL_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14WJ_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "11NL_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14VE_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14VD_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14ZZ_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "10HY_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "1A0T_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "14UO_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14YN_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14YC_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13QS_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "11HQ_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "14VW_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "10UP_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "10SL_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13NK_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1AQM_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1AVL_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13YQ_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13YC_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "10EC_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1E43_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1BQG_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1AYX_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1B8F_1",
+      "reason": "noncanonical sequence or length outside band"
+    },
+    {
+      "candidate": "13YJ_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1CGU_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1AMN_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1ASQ_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1CYG_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1CRU_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1CGX_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13XS_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1B25_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13YG_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13XN_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13ZX_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1C2O_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "1CY2_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "1AOQ_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "13YB_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1CII_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "11HN_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1E6R_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1AF9_1",
+      "reason": "duplicate sequence or already represented Pfam family"
+    },
+    {
+      "candidate": "13ZU_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1DZN_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1E6Z_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1E3Q_1",
+      "reason": "missing family annotation"
+    },
+    {
+      "candidate": "1DWI_1",
+      "reason": "missing family annotation"
+    }
+  ],
+  "options": {
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1
+  },
+  "limitations": [
+    "Convenience sample from first 500 sorted PDB entities per length band.",
+    "Ligands are co-deposited components, not validated pharmacological pairs.",
+    "Single-chain execution workload, not reconstruction of biological assemblies."
+  ]
+}

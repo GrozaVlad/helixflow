@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "models": {
+    "boltz-2": {
+      "display_name": "Boltz-2",
+      "model_version": "2.2.1",
+      "accepted_extensions": [".yaml", ".yml", ".fasta", ".fa"],
+      "preparation": {
+        "enabled": true,
+        "image": "boltz-msa",
+        "vcpus": 16,
+        "memory_mib": 122880
+      },
+      "inference": {
+        "image": "boltz-worker",
+        "vcpus": 4,
+        "memory_mib": 30720,
+        "gpus": 1
+      },
+      "retryable_exit_codes": [10, 30],
+      "terminal_exit_codes": [2, 20]
+    }
+  }
+}

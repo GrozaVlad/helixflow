@@ -1,0 +1,100 @@
+{
+  "tested_at": "2026-11-16T17:04:33.922170+00:00",
+  "image": "grozavlad/helixflow:local-2026-11-16",
+  "health": {
+    "status": "ok",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "boltz_cache": "/workspace/cache"
+  },
+  "job": {
+    "id": "49144da28a8f",
+    "filename": "release_check.yaml",
+    "status": "completed",
+    "created_at": "2026-11-16T17:03:45.850158+00:00",
+    "options": {
+      "use_msa_server": false,
+      "use_potentials": false,
+      "override": false,
+      "recycling_steps": 3,
+      "sampling_steps": 200,
+      "diffusion_samples": 1
+    },
+    "files": [
+      "boltz_results_release_check/lightning_logs/version_0/hparams.yaml",
+      "boltz_results_release_check/predictions/release_check/affinity_release_check.json",
+      "boltz_results_release_check/predictions/release_check/confidence_release_check_model_0.json",
+      "boltz_results_release_check/predictions/release_check/pae_release_check_model_0.npz",
+      "boltz_results_release_check/predictions/release_check/pde_release_check_model_0.npz",
+      "boltz_results_release_check/predictions/release_check/plddt_release_check_model_0.npz",
+      "boltz_results_release_check/predictions/release_check/pre_affinity_release_check.npz",
+      "boltz_results_release_check/predictions/release_check/release_check_model_0.cif",
+      "boltz_results_release_check/processed/constraints/release_check.npz",
+      "boltz_results_release_check/processed/manifest.json",
+      "boltz_results_release_check/processed/mols/release_check.pkl",
+      "boltz_results_release_check/processed/msa/release_check_0.npz",
+      "boltz_results_release_check/processed/records/release_check.json",
+      "boltz_results_release_check/processed/structures/release_check.npz"
+    ],
+    "command": [
+      "boltz",
+      "predict",
+      "/workspace/data/inputs/49144da28a8f/release_check.yaml",
+      "--out_dir",
+      "/workspace/data/outputs/49144da28a8f",
+      "--cache",
+      "/workspace/cache",
+      "--devices",
+      "1",
+      "--accelerator",
+      "gpu",
+      "--recycling_steps",
+      "3",
+      "--sampling_steps",
+      "200",
+      "--diffusion_samples",
+      "1",
+      "--max_parallel_samples",
+      "1",
+      "--num_workers",
+      "0",
+      "--preprocessing-threads",
+      "4"
+    ],
+    "output_dir": "/workspace/data/outputs/49144da28a8f",
+    "started_at": "2026-11-16T17:03:45.884076+00:00",
+    "pid": 72,
+    "return_code": 0,
+    "error": null,
+    "finished_at": "2026-11-16T17:04:33.369662+00:00"
+  },
+  "checks": {
+    "healthy_gpu": true,
+    "viewer_fix_present": true,
+    "molstar_served": true,
+    "completed": true,
+    "one_structure_downloaded": true,
+    "confidence_and_affinity_downloaded": true,
+    "no_msa_mismatch": true,
+    "both_prediction_stages_succeeded": true
+  },
+  "api_observed_seconds": 48.07070787200064,
+  "timing_note": "Single API smoke test, includes polling delay; not a study benchmark.",
+  "downloads": {
+    "boltz_results_release_check/predictions/release_check/affinity_release_check.json": {
+      "bytes": 314,
+      "sha256": "d5f85d6074c04d0905a4cfb968649fcbf3bab9984a588e9bb3b5454a1f5cca12"
+    },
+    "boltz_results_release_check/predictions/release_check/confidence_release_check_model_0.json": {
+      "bytes": 658,
+      "sha256": "3d342cdd82dab194bd41e8e76de6135b4118516712b89269cb457733e84b6ceb"
+    },
+    "boltz_results_release_check/predictions/release_check/release_check_model_0.cif": {
+      "bytes": 179766,
+      "sha256": "ac0cae1e4e8568507f3e98c7c31c6fb2ea94a57aa2c85eaedd49a1cb4187536b"
+    }
+  },
+  "log": "Checking input data.\nProcessing 1 inputs with 1 threads.\n\n  0%|          | 0/1 [00:00<?, ?it/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1/1 [00:00<00:00,  3.87it/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1/1 [00:00<00:00,  3.87it/s]\nUsing bfloat16 Automatic Mixed Precision (AMP)\nGPU available: True (cuda), used: True\nTPU available: False, using: 0 TPU cores\nHPU available: False, using: 0 HPUs\n/opt/conda/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default\nRunning structure prediction for 1 input.\n/opt/conda/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0\nYou are using a CUDA device ('NVIDIA GeForce RTX 5080') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision\nLOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]\n/opt/conda/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.\n\nPredicting: |          | 0/? [00:00<?, ?it/s]\nPredicting:   0%|          | 0/1 [00:00<?, ?it/s]\nPredicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]/opt/conda/lib/python3.11/site-packages/cuequivariance_ops_torch/triangle_attention.py:199: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.\n  warnings.warn(\n/opt/conda/lib/python3.11/site-packages/cuequivariance_ops_torch/triangle_attention.py:199: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.\n  warnings.warn(\n\nPredicting DataLoader 0: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1/1 [00:10<00:00,  0.10it/s]Number of failed examples: 0\n\nPredicting DataLoader 0: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1/1 [00:10<00:00,  0.10it/s]\n\nPredicting property: affinity\n\nChecking input data for affinity.\nRunning affinity prediction for 1 input.\n/opt/conda/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0\nLOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]\n/opt/conda/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.\n\nPredicting: |          | 0/? [00:00<?, ?it/s]\nPredicting:   0%|          | 0/1 [00:00<?, ?it/s]\nPredicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]\nPredicting DataLoader 0: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1/1 [00:17<00:00,  0.06it/s]Number of failed examples: 0\n\nPredicting DataLoader 0: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1/1 [00:17<00:00,  0.06it/s]\n",
+  "viewer_js_sha256": "e5b1e7e00ee331ff9c5dc87fb31530e0652008d30b8d59695f4782788440a688",
+  "molstar_js_sha256": "9d31678d2a025ef25805f5b18366c97fbbd1a60616ea5821b05c61cd82da5698"
+}

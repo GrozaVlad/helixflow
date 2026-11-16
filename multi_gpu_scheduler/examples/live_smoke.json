@@ -1,0 +1,33 @@
+{
+  "description": "Two identical functional smoke jobs, not independent scientific samples. Reduced sampling, no MSA, manual unvalidated resource estimates.",
+  "jobs": [
+    {
+      "job_id": "smoke-a",
+      "owner_id": "researcher-a",
+      "input": "smoke_protein.yaml",
+      "prediction_source": "manual-smoke-test-only",
+      "prediction": {
+        "runtime_p50_seconds": 120,
+        "runtime_p90_seconds": 180,
+        "memory_p90_gib": 12
+      },
+      "options": {"recycling_steps": 1, "sampling_steps": 10, "diffusion_samples": 1},
+      "timeout_seconds": 600,
+      "max_attempts": 1
+    },
+    {
+      "job_id": "smoke-b",
+      "owner_id": "researcher-b",
+      "input": "smoke_protein.yaml",
+      "prediction_source": "manual-smoke-test-only",
+      "prediction": {
+        "runtime_p50_seconds": 120,
+        "runtime_p90_seconds": 180,
+        "memory_p90_gib": 12
+      },
+      "options": {"recycling_steps": 1, "sampling_steps": 10, "diffusion_samples": 1},
+      "timeout_seconds": 600,
+      "max_attempts": 1
+    }
+  ]
+}

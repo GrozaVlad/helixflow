@@ -1,0 +1,8 @@
+# Functional fixture copied from local_install/examples/example_2.yaml.
+# Explicit single-sequence mode: no MSA server calls. Not a publication benchmark.
+version: 1
+sequences:
+  - protein:
+      id: A
+      sequence: MVTPEGNVSLVDESLLVGVTDEDRAVRSAHQFYERLIGLWAPAVMEAAHELGVFAALAEAPADSGELARRLDCDARAMRVLLDALYAYDVIDRIHDTNGFRYLLSAEARECLLPGTLFSLVGKFMHDINVAWPAWRNLAEVVRHGARDT
+      msa: empty

@@ -1,0 +1,10 @@
+.venv/
+*.egg-info/
+*.pkl
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+workloads/*
+!workloads/.gitkeep
+results/*
+!results/.gitkeep

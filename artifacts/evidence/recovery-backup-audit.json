@@ -1,0 +1,15 @@
+{
+  "status": "PASSED",
+  "scenarios": 4,
+  "jobs": 9,
+  "attempts": 11,
+  "succeeded_jobs": 7,
+  "expected_failed_jobs": 2,
+  "locally_verified_artifact_hashes": 77,
+  "limitations": [
+    "Timeouts deliberately occur during process startup.",
+    "One controlled repetition per fault scenario.",
+    "No host loss, disk failure, or multi-node recovery tested.",
+    "Interrupted work may be recomputed; not exactly-once."
+  ]
+}

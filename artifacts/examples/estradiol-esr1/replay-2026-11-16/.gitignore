@@ -1,0 +1,4 @@
+# Reproduction creates intermediates, including upstream pickle files.
+# Selected portable outputs are archived separately under expected/.
+outputs/
+*.tmp

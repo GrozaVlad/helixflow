@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "environment": "university-exclusive-vm",
+  "gpu_count": 4,
+  "gpu_model": "REPLACE_AFTER_NVIDIA_SMI",
+  "gpu_memory_gib": 24,
+  "workers_per_gpu": 1,
+  "memory_safety_fraction": 0.9,
+  "starvation_threshold": {
+    "method": "training_runtime_p90_multiplier",
+    "multiplier": 3.0
+  },
+  "repetitions": 3
+}

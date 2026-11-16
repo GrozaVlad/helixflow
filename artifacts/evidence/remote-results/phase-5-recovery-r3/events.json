@@ -1,0 +1,172 @@
+[
+  {
+    "event": "coordinator_started",
+    "time": 1793346171.0916312,
+    "campaign": "coordinator-crash",
+    "pid": 843448
+  },
+  {
+    "event": "four_cuda_workers_before_crash",
+    "time": 1793346197.4373744,
+    "workers": [
+      {
+        "attempt_id": "51c3954b66b047bbb1440fb5a2579465",
+        "job_id": "coord-0",
+        "ordinal": 1,
+        "gpu_id": "GPU-b2325c48-af29-7fe9-d81a-9aaf1a508153",
+        "status": "RUNNING",
+        "claimed_at": 1793346171.2537055,
+        "finished_at": null,
+        "reserved_seconds": 90.0,
+        "receipt": null,
+        "worker_pid": 843453,
+        "workload_pid": 843465
+      },
+      {
+        "attempt_id": "3b6d2913c7a54a4fb4dd81d59804d3ed",
+        "job_id": "coord-1",
+        "ordinal": 1,
+        "gpu_id": "GPU-848fca0d-613c-df26-3492-b58f60c08d7a",
+        "status": "RUNNING",
+        "claimed_at": 1793346171.2595098,
+        "finished_at": null,
+        "reserved_seconds": 90.0,
+        "receipt": null,
+        "worker_pid": 843454,
+        "workload_pid": 843467
+      },
+      {
+        "attempt_id": "fd951d4ce71e46b28bd4bfb690b49f98",
+        "job_id": "coord-2",
+        "ordinal": 1,
+        "gpu_id": "GPU-2d69b044-2e42-ae43-e8c0-43e03cb2fbf2",
+        "status": "RUNNING",
+        "claimed_at": 1793346171.263821,
+        "finished_at": null,
+        "reserved_seconds": 90.0,
+        "receipt": null,
+        "worker_pid": 843455,
+        "workload_pid": 843472
+      },
+      {
+        "attempt_id": "763945c17c154500916866278aa03b60",
+        "job_id": "coord-3",
+        "ordinal": 1,
+        "gpu_id": "GPU-8c98c1cc-cc5b-dd2c-3908-ba73167aa48d",
+        "status": "RUNNING",
+        "claimed_at": 1793346171.2723393,
+        "finished_at": null,
+        "reserved_seconds": 90.0,
+        "receipt": null,
+        "worker_pid": 843456,
+        "workload_pid": 843474
+      }
+    ]
+  },
+  {
+    "event": "signal",
+    "time": 1793346197.4436822,
+    "pid": 843448,
+    "signal": "SIGKILL",
+    "command": "/opt/conda/bin/python /opt/conda/bin/boltz-live run /workspace/results/phase-5-recovery-r3/coordinator-crash "
+  },
+  {
+    "event": "coordinator_started",
+    "time": 1793346197.45469,
+    "campaign": "coordinator-crash",
+    "pid": 844419
+  },
+  {
+    "event": "case_passed",
+    "time": 1793346212.7736874,
+    "campaign": "coordinator-crash",
+    "artifact_hashes": 44,
+    "jobs": {
+      "QUEUED": 0,
+      "RUNNING": 0,
+      "SUCCEEDED": 4,
+      "FAILED": 0,
+      "UNSCHEDULABLE": 0
+    },
+    "attempts": 4
+  },
+  {
+    "event": "coordinator_started",
+    "time": 1793346213.362579,
+    "campaign": "worker-crash",
+    "pid": 845164
+  },
+  {
+    "event": "signal",
+    "time": 1793346238.740187,
+    "pid": 845169,
+    "signal": "SIGKILL",
+    "command": "/opt/conda/bin/python -m scheduling.live_worker /workspace/results/phase-5-recovery-r3/worker-crash/attempts/9c723c50fe314b6db57823987f23fca1/request.json --lock-fd 7 "
+  },
+  {
+    "event": "orphan_child_lease_preserved",
+    "time": 1793346238.7482867,
+    "workload_pid": 845172,
+    "attempt_id": "9c723c50fe314b6db57823987f23fca1"
+  },
+  {
+    "event": "retry_finished",
+    "time": 1793346292.6610312,
+    "seconds_since_injection": 53.92110514640808,
+    "retry_dispatch_delay_seconds": 14.327244520187378
+  },
+  {
+    "event": "case_passed",
+    "time": 1793346292.9685247,
+    "campaign": "worker-crash",
+    "artifact_hashes": 11,
+    "jobs": {
+      "QUEUED": 0,
+      "RUNNING": 0,
+      "SUCCEEDED": 1,
+      "FAILED": 0,
+      "UNSCHEDULABLE": 0
+    },
+    "attempts": 2
+  },
+  {
+    "event": "coordinator_started",
+    "time": 1793346293.5999858,
+    "campaign": "timeout",
+    "pid": 846880
+  },
+  {
+    "event": "case_passed",
+    "time": 1793346334.7533064,
+    "campaign": "timeout",
+    "artifact_hashes": 11,
+    "jobs": {
+      "QUEUED": 0,
+      "RUNNING": 0,
+      "SUCCEEDED": 1,
+      "FAILED": 1,
+      "UNSCHEDULABLE": 0
+    },
+    "attempts": 2
+  },
+  {
+    "event": "coordinator_started",
+    "time": 1793346335.3915808,
+    "campaign": "retry-exhaustion",
+    "pid": 847699
+  },
+  {
+    "event": "case_passed",
+    "time": 1793346378.3053336,
+    "campaign": "retry-exhaustion",
+    "artifact_hashes": 11,
+    "jobs": {
+      "QUEUED": 0,
+      "RUNNING": 0,
+      "SUCCEEDED": 1,
+      "FAILED": 1,
+      "UNSCHEDULABLE": 0
+    },
+    "attempts": 3
+  }
+]

@@ -1,0 +1,14 @@
+*
+!aws_distributed/
+!aws_distributed/shared/
+!aws_distributed/shared/**
+!aws_distributed/workers/
+!aws_distributed/workers/**
+!multi_gpu_scheduler/
+!multi_gpu_scheduler/**
+multi_gpu_scheduler/.venv/
+multi_gpu_scheduler/.pytest_cache/
+multi_gpu_scheduler/.ruff_cache/
+multi_gpu_scheduler/*.egg-info/
+multi_gpu_scheduler/results/*
+multi_gpu_scheduler/workloads/*
