@@ -43,29 +43,79 @@ the scheduler tools rather than loading an untrusted serialized model.
 
 ## Exact inference reruns require additional assets
 
-`release-assets/public-v1-heme-ccd.tar.gz` is a **locally staged, Git-ignored** archive
-of the exact frozen inputs, 60 MSAs, their provenance and source metadata cache.
-All 504 files in its frozen manifest were hash-verified during migration. Its checksum is recorded
-in `import-manifest.json`. It is not yet published, and must undergo redistribution
-review before being uploaded as a release asset or to an archival repository.
+`release-assets/public-v1-heme-ccd-public.tar.gz` is the **locally staged,
+Git-ignored public input archive**. It retains all 60 inputs, 60 MSAs, provenance,
+catalog, splits, and the original `frozen.json` without changing their bytes.
+It omits the 322 mixed-provider source-cache responses, not scientific inputs.
+All 504 original frozen files were checked before packaging; the public inventory
+explicitly identifies the omitted cache paths/hashes. See `public-workload-release.json`.
+
+The archive includes a [workload README](workloads/public-v1-heme-ccd/README.md)
+with extraction, public-inventory verification, usage, and provenance limitations.
+The [data notice](workloads/public-v1-heme-ccd/DATA_NOTICE.md) records the review,
+attribution, and conservative CC BY-SA treatment of alignment adaptations. No
+blanket Apache-2.0 license is applied to third-party data. The complete original
+archive is retained under `release-assets/private-backups/` and is **not for upload**.
 
 After obtaining the archive, extract it under `multi_gpu_scheduler/workloads/`:
 
 ```bash
-tar -xzf artifacts/release-assets/public-v1-heme-ccd.tar.gz -C multi_gpu_scheduler/workloads/
+mkdir -p multi_gpu_scheduler/workloads
+test ! -e multi_gpu_scheduler/workloads/public-v1-heme-ccd && \
+  tar -xzf artifacts/release-assets/public-v1-heme-ccd-public.tar.gz -C multi_gpu_scheduler/workloads/
+python3 multi_gpu_scheduler/workloads/public-v1-heme-ccd/verify_public_bundle.py
 ```
 
 Then follow `multi_gpu_scheduler/EXPERIMENT_PLAN.md` and `VM_RUNBOOK.md`, configuring
 paths for the new host. The full campaign requires GPUs, separately provisioned
 Boltz models and compatible software. Downloading new MSAs is not an exact replay
 of the frozen experiment. The lightweight YAML subset alone cannot run with its
-MSA references unresolved.
+MSA references unresolved. Public projections require the updated scheduler;
+the workload README documents the source overlay for previously published images.
+Keep the read-only workload separate from generated output. The original frozen
+fingerprint is preserved; new runs still record their updated software provenance.
 
-The full per-attempt scientific outputs, logs, telemetry and original deployment
-backups remain in the original private project. Selected evidence here supports
-figure reproduction, but does not replace publication of a curated full evidence
-archive where required. Do not publish model caches or assume Apache-2.0 applies
-to upstream biological databases or third-party data.
+Rebuild the public input package from the retained complete archive with:
+
+```bash
+python3 artifacts/build_public_workload.py \
+  --source artifacts/release-assets/private-backups/public-v1-heme-ccd.full.tar.gz \
+  --output /path/to/fresh-release-directory
+```
+
+## Curated execution evidence
+
+`release-assets/helixflow-curated-evidence.tar.gz` is a separately staged,
+Git-ignored release attachment. It includes original per-job/trial reports,
+receipts, telemetry, logs, configurations, profiling, final recovery evidence,
+and representative predictions from one fixed 12-job trial. It excludes repeated
+MSAs, runtime caches, serialized models, processed intermediates, live queue
+databases, and superseded recovery-development runs. It is not a resumable VM
+backup or a complete collection of every scientific prediction output.
+
+See [the evidence README](curated-evidence/README.md) for the exact scope and
+verification instructions. The archive includes a standalone Python verifier
+and per-file hash manifest. `release-assets/curated-evidence-validation.json`
+records packaging checks; `release-assets/SHA256SUMS` covers both release archives.
+The public input archive has its own data notice; neither archive contains the
+mixed-provider source cache. Use the updated shared checksum file.
+
+The release attachments are **only** `public-v1-heme-ccd-public.tar.gz`,
+`helixflow-curated-evidence.tar.gz`, and `SHA256SUMS`. Do not attach private backups.
+
+To reproduce the packaging from the retained original experiment backup:
+
+```bash
+python3 artifacts/build_curated_evidence.py --source /path/to/vast-58269544 --dry-run
+python3 artifacts/build_curated_evidence.py --source /path/to/vast-58269544 --output /path/to/fresh-release-directory
+```
+
+The builder scans selected text for common credential patterns, verifies all
+15,552 comparison and 77 successful recovery output hashes against the backup,
+copies selected original records without modification, validates the bundle, and
+refuses to overwrite an existing evidence archive. The original full backup is
+retained privately. Do not publish model caches or assume Apache-2.0 applies to
+upstream biological databases or third-party data.
 
 The architecture figures are code-generated explanatory diagrams. AWS is an
 unvalidated reference backend; the local runner diagram distinguishes the browser

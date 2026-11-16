@@ -1,0 +1,20 @@
+{
+  "archive": "artifacts/release-assets/helixflow-curated-evidence.tar.gz",
+  "bytes": 30128369,
+  "sha256": "64269ed963dd7660cb670092a289685ccec72cd891ac56ca9af6499448c3a8a5",
+  "payload_files": 13371,
+  "payload_bytes": 75431846,
+  "comparison_trials": 108,
+  "comparison_jobs": 1296,
+  "profiles": 120,
+  "recovery_scenarios": 4,
+  "representative_structures": 12,
+  "representative_trial": "burst-r1-g4-uaf_sjf",
+  "source_comparison_output_hashes_verified": 15552,
+  "source_recovery_output_hashes_verified": 77,
+  "included_comparison_receipt_outputs_verified": 1344,
+  "included_recovery_receipt_outputs_verified": 7,
+  "original_records_modified": false,
+  "publication_status": "locally staged; not uploaded",
+  "scope": "Curated measurements, configuration, logs and selected predictions; not a complete scientific-output archive or resumable VM backup."
+}

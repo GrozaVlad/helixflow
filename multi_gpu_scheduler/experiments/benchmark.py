@@ -520,7 +520,14 @@ def freeze(root):
 
 def validate(root):
     frozen = json.loads((root / "frozen.json").read_text())
+    omitted = {}
+    if (root / "public-release.json").exists():
+        from experiments.public_bundle import validate_public_inventory
+
+        omitted = validate_public_inventory(root)
     for relative, expected in frozen["sha256"].items():
+        if relative in omitted:
+            continue  # Explicit public projection: only non-execution source metadata is absent.
         path = (root / relative).resolve()
         if not path.is_relative_to(root.resolve()) or digest(path) != expected:
             raise ValueError(f"benchmark asset changed: {relative}")
@@ -557,6 +564,8 @@ def snapshot(root, output):
 
 def revise_ligands(root, output, codes, cache):
     """Fork a frozen corpus without replacing targets, groups, MSAs or evidence."""
+    if (root / "public-release.json").exists():
+        raise ValueError("ligand revision requires the complete original workload, not a public projection")
     from scheduling.features import cached_ccd_heavy_atoms
 
     frozen = validate(root)

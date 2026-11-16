@@ -1114,8 +1114,19 @@
     }
   ],
   "staged_workload_archive": {
-    "path": "artifacts/release-assets/public-v1-heme-ccd.tar.gz",
-    "bytes": 90204411,
-    "sha256": "2db3038f282138c872c7065a82761fae9726a9f127b1d7a1b5ff6a84a554311c"
+    "path": "artifacts/release-assets/private-backups/public-v1-heme-ccd.full.tar.gz",
+    "bytes": 90206997,
+    "sha256": "61beb1461354b58187277c1f9f05737699baef0ece77cefa31af055f380389b6",
+    "packaging_note": "Added the workload README; all 505 original archive files, including the unchanged 504-file frozen inventory, are byte-identical to the imported archive.",
+    "original_archive_sha256": "2db3038f282138c872c7065a82761fae9726a9f127b1d7a1b5ff6a84a554311c",
+    "publication_status": "Private complete archive; do not upload. Use the public projection described in public-workload-release.json."
+  },
+  "public_workload_archive": {
+    "path": "artifacts/release-assets/public-v1-heme-ccd-public.tar.gz",
+    "bytes": 88365414,
+    "sha256": "9b47ab1a7c370cd1b89d0a1e75a49d4cd835418038d129cafccf50aaa288b7df",
+    "original_frozen_sha256": "186ffa519d122671429ccfb94f71af1c962577477e2d23daecd535f4367acf40",
+    "omitted_source_cache_files": 322,
+    "retained_scientific_files_modified": false
   }
 }

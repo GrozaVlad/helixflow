@@ -1,0 +1,15 @@
+{
+  "archive": "artifacts/release-assets/public-v1-heme-ccd-public.tar.gz",
+  "bytes": 88365414,
+  "sha256": "9b47ab1a7c370cd1b89d0a1e75a49d4cd835418038d129cafccf50aaa288b7df",
+  "original_frozen_sha256": "186ffa519d122671429ccfb94f71af1c962577477e2d23daecd535f4367acf40",
+  "source_archive_sha256": "61beb1461354b58187277c1f9f05737699baef0ece77cefa31af055f380389b6",
+  "original_frozen_files_verified": 504,
+  "retained_original_files": 182,
+  "omitted_source_cache_files": 322,
+  "verified_payload_files": 186,
+  "retained_scientific_files_modified": false,
+  "validation": "Standalone inventory, updated scheduler, and existing experimental image with updated source overlay passed without GPU or network.",
+  "data_notice": "artifacts/workloads/public-v1-heme-ccd/DATA_NOTICE.md",
+  "publication_status": "locally staged; not uploaded"
+}

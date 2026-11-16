@@ -6,6 +6,16 @@ driver, Docker with GPU support, four GPUs, and sufficient local output storage.
 
 ## Prepare locally
 
+For the published experiment inputs, prefer `public-v1-heme-ccd-public.tar.gz`
+and its included README/data notice instead of requesting new alignments.
+It omits mixed-provider API cache records but preserves the original frozen
+fingerprint and every execution input. Run its standalone verifier first.
+The updated scheduler recognizes `public-release.json` and verifies every
+included file; the historical container image requires the source overlay
+documented in that README. Full workload validation remains strict when no
+public-release manifest is present. Do not use the public projection for source
+preparation or ligand revisions, and keep generated files outside its directory.
+
 From `multi_gpu_scheduler`, the development CLIs can be installed with
 `python -m pip install -e '.[dev,experiment]'`. The container includes experiment tools.
 Prepared local artifacts are listed in [PREVM_VALIDATION.md](PREVM_VALIDATION.md).
